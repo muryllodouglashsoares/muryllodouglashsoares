@@ -13,13 +13,13 @@ Do front-end ao banco de dados — do código ao robô.
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU_USUARIO)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEU_USUARIO)
-[![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:SEU_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muryllodouglashsoares)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muryllodouglashsoares)
+[![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muryllodouglashsoares@gmail.com)
 
 <br/>
 
-![Visitors](https://komarev.com/ghpvc/?username=SEU_USUARIO&color=00A859&style=flat-square&label=Visitas+ao+perfil)
+![Visitors](https://komarev.com/ghpvc/?username=muryllodouglashsoares&color=00A859&style=flat-square&label=Visitas+ao+perfil)
 
 </div>
 
@@ -117,8 +117,8 @@ Sou um desenvolvedor em formação com foco em **desenvolvimento web** e **autom
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=default&hide_border=true&title_color=00A859&icon_color=00A859&text_color=333&bg_color=fff" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&hide_border=true&title_color=00A859&text_color=333&bg_color=fff" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=muryllodouglashsoares&show_icons=true&theme=default&hide_border=true&title_color=00A859&icon_color=00A859&text_color=333&bg_color=fff" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muryllodouglashsoares&layout=compact&hide_border=true&title_color=00A859&text_color=333&bg_color=fff" />
 
 </div>
 
@@ -138,7 +138,7 @@ Sou um desenvolvedor em formação com foco em **desenvolvimento web** e **autom
 
 Estou em busca da minha **primeira oportunidade profissional** como desenvolvedor — estágio ou trainee. Tenho comprometimento, capacidade de aprendizado rápido e experiência prática com projetos reais do zero.
 
-> 📬 Entre em contato: **SEU_EMAIL**
+> 📬 Entre em contato: **muryllodouglashsoares@gmail.com**
 
 ---
 
