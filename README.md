@@ -142,7 +142,7 @@ Sou um desenvolvedor em formação com foco em **desenvolvimento web** e **autom
 Estou em busca da minha **primeira oportunidade profissional** como desenvolvedor — estágio ou trainee. Tenho comprometimento, capacidade de aprendizado rápido e experiência prática com projetos reais do zero.
 
 > 🌐 Portfólio: **[muryllodouglashsoares.github.io/portfolio](https://muryllodouglashsoares.github.io/portfolio/)**
-> 📬 Entre em contato: **muryllodouglashsoares@gmail.com**
+> 📬 Entre em contato: **muryllodouglash.soares@gmail.com**
 
 ---
 
