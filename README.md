@@ -13,6 +13,7 @@ Do front-end ao banco de dados — do código ao robô.
 
 <br/>
 
+[![Portfólio](https://img.shields.io/badge/Portfólio-00A859?style=for-the-badge&logo=googlechrome&logoColor=white)](https://muryllodouglashsoares.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muryllodouglashsoares)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muryllodouglashsoares)
 [![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muryllodouglashsoares@gmail.com)
@@ -36,6 +37,8 @@ Do front-end ao banco de dados — do código ao robô.
 ```
 
 Sou um desenvolvedor em formação com foco em **desenvolvimento web** e **automação**. Gosto de entender os problemas antes de escrever código, e busco construir soluções que realmente funcionem para quem vai usá-las. Tenho experiência prática com projetos do zero — da concepção ao deploy.
+
+🔗 Confira meu portfólio completo: **[muryllodouglashsoares.github.io/portfolio](https://muryllodouglashsoares.github.io/portfolio/)**
 
 ---
 
@@ -117,8 +120,8 @@ Sou um desenvolvedor em formação com foco em **desenvolvimento web** e **autom
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=muryllodouglashsoares&show_icons=true&theme=default&hide_border=true&title_color=00A859&icon_color=00A859&text_color=333&bg_color=fff" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muryllodouglashsoares&layout=compact&hide_border=true&title_color=00A859&text_color=333&bg_color=fff" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=muryllodouglashsoares&show_icons=true&theme=default&hide_border=true&title_color=00A859&icon_color=00A859&text_color=333&bg_color=fff&count_private=true&cache_seconds=86400" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muryllodouglashsoares&layout=compact&hide_border=true&title_color=00A859&text_color=333&bg_color=fff&cache_seconds=86400" />
 
 </div>
 
@@ -138,6 +141,7 @@ Sou um desenvolvedor em formação com foco em **desenvolvimento web** e **autom
 
 Estou em busca da minha **primeira oportunidade profissional** como desenvolvedor — estágio ou trainee. Tenho comprometimento, capacidade de aprendizado rápido e experiência prática com projetos reais do zero.
 
+> 🌐 Portfólio: **[muryllodouglashsoares.github.io/portfolio](https://muryllodouglashsoares.github.io/portfolio/)**
 > 📬 Entre em contato: **muryllodouglashsoares@gmail.com**
 
 ---
