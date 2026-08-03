@@ -120,8 +120,8 @@ Sou um desenvolvedor em formação com foco em **desenvolvimento web** e **autom
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=muryllodouglashsoares&show_icons=true&theme=default&hide_border=true&title_color=00A859&icon_color=00A859&text_color=333&bg_color=fff&count_private=true&cache_seconds=86400" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muryllodouglashsoares&layout=compact&hide_border=true&title_color=00A859&text_color=333&bg_color=fff&cache_seconds=86400" />
+<img height="160" src="https://github-stats-extended.vercel.app/api?username=muryllodouglashsoares&show_icons=true&theme=default&hide_border=true&title_color=00A859&icon_color=00A859&text_color=333&bg_color=fff&cache_seconds=86400" />
+<img height="160" src="https://github-stats-extended.vercel.app/api/top-langs/?username=muryllodouglashsoares&layout=compact&hide_border=true&title_color=00A859&text_color=333&bg_color=fff&cache_seconds=86400" />
 
 </div>
 
