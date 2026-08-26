@@ -1,117 +1,212 @@
 <div align="center">
 
-<h1>Muryllo Douglas</h1>
-<p><strong>Desenvolvedor em formação | Estudante de Informática | Focado em Web & Automação</strong></p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:0EA5A4&height=200&section=header&text=Muryllo%20Douglas&fontSize=46&fontColor=E8FBF9&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20em%20forma%C3%A7%C3%A3o%20%7C%20Web%20%26%20Automa%C3%A7%C3%A3o&descAlignY=58&descSize=18" width="100%"/>
 
-<p>Construo projetos do zero para resolver problemas reais, unindo desenvolvimento de software e integração de hardware.<br>Buscando construir software de qualidade e transformar experiência prática em impacto no mercado de tecnologia.</p>
+<a href="https://muryllodouglashsoares.github.io/portfolio/" target="_blank">
+  <img src="https://img.shields.io/badge/Portf%C3%B3lio-0B0F19?style=for-the-badge&logo=googlechrome&logoColor=0EA5A4" alt="Portfólio" />
+</a>
+<a href="https://linkedin.com/in/muryllodouglashsoares" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0B0F19?style=for-the-badge&logo=linkedin&logoColor=0EA5A4" alt="LinkedIn" />
+</a>
+<a href="mailto:muryllodouglashsoares@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Email-0B0F19?style=for-the-badge&logo=gmail&logoColor=0EA5A4" alt="Email" />
+</a>
 
-<div align="center">
-  <a href="https://muryllodouglashsoares.github.io/portfolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfólio-00A859?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfólio" />
-  </a>
-  <a href="https://linkedin.com/in/muryllodouglashsoares" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:muryllodouglashsoares@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+<br><br>
+
+<a href="https://github.com/muryllodouglashsoares">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=1200&color=0EA5A4&center=true&vCenter=true&width=560&lines=Construindo+software+do+zero+para+resolver+problemas+reais;Web+%2B+Automa%C3%A7%C3%A3o+%2B+Rob%C3%B3tica;Preparando-me+para+minha+primeira+oportunidade" alt="Typing SVG" />
+</a>
+
 </div>
 
-</div>
+<br>
+
+## Sobre mim
+
+Estudante de Informática no IFPB e desenvolvedor em formação, com foco em **desenvolvimento web** e interesse crescente em **automação e robótica autônoma**.
+
+Minha forma de trabalhar começa em entender o problema antes de escrever qualquer linha de código — só então penso na solução técnica. Já passei pelo ciclo completo de projetos próprios: concepção, modelagem, versionamento, desenvolvimento e deploy. Hoje, meu foco é transformar essa base prática em resultado dentro de um time de verdade.
 
 <br>
 
-## 👨‍💻 Sobre Mim
+## Stack
 
-Sou estudante de Informática no IFPB e desenvolvedor em formação. Tenho foco na construção de aplicações web e exploro soluções em automação e robótica autônoma. 
+<table>
+<tr>
+<td valign="top" width="50%">
 
-Minha abordagem de desenvolvimento baseia-se em entender profundamente o problema antes de escrever código, estruturando a solução tecnológica mais adequada. Tenho construído experiência prática ao desenvolver meus próprios projetos cobrindo todo o ciclo: concepção, modelagem, versionamento, desenvolvimento e deploy. Meu objetivo central é integrar profissionalmente a área de tecnologia, convertendo essa bagagem prática em soluções concretas para empresas e usuários.
+**CORE** · uso em projetos reais
 
----
+<img src="https://img.shields.io/badge/JavaScript-0B0F19?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/TypeScript-0B0F19?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/HTML5-0B0F19?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-0B0F19?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3"/>
+<img src="https://img.shields.io/badge/Firebase-0B0F19?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase"/>
+<img src="https://img.shields.io/badge/Git-0B0F19?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-0B0F19?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"/>
+<img src="https://img.shields.io/badge/VS%20Code-0B0F19?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code"/>
+<img src="https://img.shields.io/badge/LEGO%20SPIKE%20Prime-0B0F19?style=for-the-badge&logo=lego&logoColor=E01A22" alt="LEGO SPIKE Prime"/>
 
-## 🚀 Principais Projetos
+</td>
+<td valign="top" width="50%">
 
-### 📌 Projetos Principais
+**EXPLORING** · estudando atualmente
 
-#### [Tekidu](https://github.com/muryllodouglashsoares/Tekidu)
-Plataforma web voltada para o desenvolvimento acadêmico, registro de notas estudantis e acompanhamento do crescimento do aluno ao longo da trajetória escolar.
-- **Funcionalidades:** Gerenciamento de notas, painel de desempenho e acompanhamento de evolução estudantil.
-- **Tecnologias:** TypeScript, Web
-- **Status:** Em desenvolvimento contínuo
+<img src="https://img.shields.io/badge/Python-1A1A1A?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"/>
+<img src="https://img.shields.io/badge/Estruturas%20de%20Dados-1A1A1A?style=for-the-badge&logo=leetcode&logoColor=F1C21B" alt="Estruturas de Dados"/>
+<img src="https://img.shields.io/badge/Arquitetura%20de%20Software-1A1A1A?style=for-the-badge&logo=blueprint&logoColor=0EA5A4" alt="Arquitetura de Software"/>
+<img src="https://img.shields.io/badge/Rob%C3%B3tica%20Aut%C3%B4noma-1A1A1A?style=for-the-badge&logo=robotframework&logoColor=0EA5A4" alt="Robótica Autônoma"/>
 
-#### [IFConnect](https://github.com/muryllodouglashsoares/plataforma-comunicacao)
-Plataforma de comunicação integrada (rede social acadêmica) desenhada para conectar alunos, professores e administradores do IFPB em um único ambiente.
-- **Funcionalidades:** Feed de posts, chat em tempo real, grupos, sistema de badges por conquistas, verificação de e-mail institucional e painel administrativo.
-- **Tecnologias:** JavaScript, Firebase, HTML5, CSS3
-- **Status:** Versão estável em evolução
-
-#### Robô de Resgate — OBR
-Robô autônomo projetado para missões simuladas de resgate na Olimpíada Brasileira de Robótica.
-- **Funcionalidades:** Navegação autônoma em pistas complexas e execução de missões de detecção.
-- **Tecnologias:** Python, Robótica Autônoma, Sensores
-- **Status:** Em desenvolvimento ativo
-
-#### Sistema de Alarme de Incêndio
-Sistema embarcado de segurança com alerta e detecção.
-- **Funcionalidades:** Lógica de resposta em tempo real a partir de sensores de fumaça e temperatura, disparando alertas integrados.
-- **Tecnologias:** Sistemas Embarcados, Automação, Sensores
+</td>
+</tr>
+</table>
 
 <br>
 
-### 📌 Outros Projetos Relevantes
+## Featured Projects
 
-- **[Mini Competição de Robótica](https://github.com/muryllodouglashsoares/mini-robotics-competition):** Projeto de controle de motores e integração de sensores desenvolvido com LEGO SPIKE Prime para competições de robótica educacional sob pressão de tempo.
-- **[Savora Landing Page](https://github.com/muryllodouglashsoares/savora-landing-page):** Landing page premium com cardápio digital para restaurante fictício. Focado em design moderno e UI/UX responsiva. Construído com TypeScript. ([Ver Demo](https://savora-landing-page.muryllodouglash-soares.workers.dev/))
-- **Landing Pages Comerciais:** Interfaces voltadas à conversão desenvolvidas em TypeScript com layouts limpos e responsivos para simulações de [Clínica](https://github.com/muryllodouglashsoares/clinica-landing-page) e [Academia](https://github.com/muryllodouglashsoares/gym-landing-page).
+<br>
 
----
+### Tekidu — projeto principal
 
-## 🛠️ Stack e Tecnologias
+<table>
+<tr>
+<td width="60%" valign="top">
 
-**Core (Utilizados em projetos reais)**
-- **Linguagens:** JavaScript, TypeScript
-- **Front-end:** HTML5, CSS3
-- **Back-end / DB:** Firebase
-- **Ferramentas:** Git, GitHub, VS Code
-- **Hardware / Automação:** LEGO SPIKE Prime, Sistemas Embarcados Básicos
+Plataforma web para acompanhamento acadêmico: registro de notas estudantis e visualização da evolução do aluno ao longo da trajetória escolar.
 
-**Exploring (Estudando atualmente)**
-- Python (Foco em scripts e robótica)
-- Arquitetura e Modelagem de Software
+**Tecnologias:** TypeScript · Web
+**Status:** 🟢 Em desenvolvimento contínuo
 
----
+<a href="https://github.com/muryllodouglashsoares/Tekidu">
+  <img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-0B0F19?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Ver código"/>
+</a>
+<a href="https://tekidu.muryllodouglash-soares.workers.dev/">
+  <img src="https://img.shields.io/badge/Abrir%20aplica%C3%A7%C3%A3o-0EA5A4?style=for-the-badge&logo=cloudflare&logoColor=0B0F19" alt="Abrir aplicação"/>
+</a>
 
-## 📚 Currently Learning
+</td>
+<td width="40%" valign="top">
 
-- **Estruturas de Dados e Algoritmos:** Aprofundando fundamentos para escrita de código eficiente e resolução de problemas complexos.
-- **Desenvolvimento Web & TypeScript:** Evoluindo conhecimento no ecossistema front-end moderno.
-- **Arquitetura de Software:** Modelagem de sistemas escaláveis, separação de responsabilidades e código limpo.
-- **Automação e Robótica Autônoma:** Entendendo navegação, processamento de sinais de sensores e integração hardware/software.
+<!-- Sugestão: adicione aqui um screenshot ou GIF curto (≤2MB) da interface do Tekidu -->
+<img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/preview.png" width="100%" alt="Preview do Tekidu"/>
 
----
-
-## ⚙️ GitHub & Práticas de Engenharia
-
-Em meus projetos, busco aplicar fundamentos de engenharia de software:
-- **Controle de Versão:** Uso de Git/GitHub para versionamento do histórico de desenvolvimento.
-- **Deploy Prático:** Hospedagem de interfaces modernas utilizando plataformas serverless (como Cloudflare Workers).
-- **Foco em UI/UX:** Construção de aplicações componentizadas com design responsivo, mobile-first e escaneabilidade de código.
+</td>
+</tr>
+</table>
 
 ---
 
-## 💼 Open to Opportunities
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Estou em busca da minha **primeira oportunidade profissional** em tecnologia, prioritariamente como **Estagiário** ou **Desenvolvedor Trainee** (Web/Software). 
+**[IFConnect](https://github.com/muryllodouglashsoares/plataforma-comunicacao)**
+Rede social acadêmica para conectar alunos, professores e administradores do IFPB.
+Feed de posts, chat em tempo real, grupos, badges de conquistas, verificação de e-mail institucional e painel administrativo.
+`JavaScript` `Firebase` `HTML5` `CSS3`
+**Status:** Versão estável em evolução
 
-Estou construindo base técnica sólida através de projetos práticos e me sinto preparado para aplicar minha capacidade de resolução de problemas e adaptabilidade no contexto de negócios e equipes reais.
+</td>
+<td width="50%" valign="top">
 
-📫 **Entre em contato comigo:**
-- [Portfólio Profissional](https://muryllodouglashsoares.github.io/portfolio/)
-- E-mail: muryllodouglashsoares@gmail.com
-- [LinkedIn](https://linkedin.com/in/muryllodouglashsoares)
+**Robô de Resgate — OBR**
+Robô autônomo para missões simuladas de resgate na Olimpíada Brasileira de Robótica.
+Navegação autônoma em pistas complexas e execução de missões de detecção.
+`Python` `Robótica Autônoma` `Sensores`
+**Status:** Em desenvolvimento ativo
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Sistema de Alarme de Incêndio**
+Sistema embarcado de segurança com detecção e resposta em tempo real a partir de sensores de fumaça e temperatura, disparando alertas integrados.
+`Sistemas Embarcados` `Automação` `Sensores`
+
+</td>
+<td width="50%" valign="top">
+
+&nbsp;
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Other Projects
+
+<details>
+<summary><strong>Ver projetos adicionais</strong></summary>
+<br>
+
+| Projeto | Descrição | Tecnologias |
+|---|---|---|
+| [Mini Competição de Robótica](https://github.com/muryllodouglashsoares/mini-robotics-competition) | Controle de motores e integração de sensores com LEGO SPIKE Prime para competições educacionais sob pressão de tempo | LEGO SPIKE Prime |
+| [Savora Landing Page](https://github.com/muryllodouglashsoares/savora-landing-page) · [demo](https://savora-landing-page.muryllodouglash-soares.workers.dev/) | Landing page premium com cardápio digital para restaurante fictício, com foco em UI/UX responsiva | TypeScript |
+| [Clínica Landing Page](https://github.com/muryllodouglashsoares/clinica-landing-page) | Interface voltada à conversão, layout limpo e responsivo, simulação para clínica | TypeScript |
+| [Academia Landing Page](https://github.com/muryllodouglashsoares/gym-landing-page) | Interface voltada à conversão, layout limpo e responsivo, simulação para academia | TypeScript |
+
+</details>
+
+<br>
+
+## Currently Learning
+
+```
+Estruturas de Dados e Algoritmos    → fundamentos para código eficiente
+Web moderno & TypeScript            → aprofundando o ecossistema front-end
+Arquitetura de Software             → modelagem, separação de responsabilidades, código limpo
+Automação e Robótica Autônoma       → navegação, sinais de sensores, integração hardware/software
+```
+
+<br>
+
+## Engineering Practices
+
+- **Versionamento** — Git/GitHub para histórico organizado de desenvolvimento
+- **Deploy** — hospedagem de interfaces em plataformas serverless (Cloudflare Workers)
+- **UI/UX** — aplicações componentizadas, design responsivo e mobile-first
+- **Organização de código** — foco em legibilidade e escaneabilidade
 
 <br>
 
 <div align="center">
-  <i>"A capacidade de construir resolve a maioria dos problemas."</i>
+
+## Open to Opportunities
+
+**Buscando minha primeira oportunidade profissional em tecnologia**
+como **Estagiário** ou **Desenvolvedor Trainee** — Web / Software
+
+Base técnica construída em projetos práticos, prontos para aplicar resolução de problemas e adaptabilidade em um time real.
+
+</div>
+
+<br>
+
+## Contato
+
+<div align="center">
+
+<a href="https://muryllodouglashsoares.github.io/portfolio/" target="_blank">
+  <img src="https://img.shields.io/badge/Portf%C3%B3lio-0B0F19?style=for-the-badge&logo=googlechrome&logoColor=0EA5A4" alt="Portfólio" />
+</a>
+<a href="https://linkedin.com/in/muryllodouglashsoares" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0B0F19?style=for-the-badge&logo=linkedin&logoColor=0EA5A4" alt="LinkedIn" />
+</a>
+<a href="mailto:muryllodouglashsoares@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Email-0B0F19?style=for-the-badge&logo=gmail&logoColor=0EA5A4" alt="Email" />
+</a>
+
+<br><br>
+
+<i>"A capacidade de construir resolve a maioria dos problemas."</i>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5A4,100:0B0F19&height=100&section=footer" width="100%"/>
+
 </div>
