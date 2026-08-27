@@ -1,0 +1,9 @@
+<svg width="900" height="80" viewBox="0 0 900 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="80" fill="#0B0F19"/>
+  <path d="M0,40 C150,10 300,70 450,40 C600,10 750,70 900,40 L900,80 L0,80 Z" fill="#0EA5A4" opacity="0.25">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -450,0; 0,0" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,52 C150,27 300,77 450,52 C600,27 750,77 900,52 L900,80 L0,80 Z" fill="#22D3EE" opacity="0.4">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 450,0; 0,0" dur="5s" repeatCount="indefinite"/>
+  </path>
+</svg>
