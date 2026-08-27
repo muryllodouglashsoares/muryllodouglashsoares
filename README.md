@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:0EA5A4&height=200&section=header&text=Muryllo%20Douglas&fontSize=46&fontColor=E8FBF9&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20em%20forma%C3%A7%C3%A3o%20%7C%20Web%20%26%20Automa%C3%A7%C3%A3o&descAlignY=58&descSize=18" width="100%"/>
+<h1>MURYLLO&nbsp;DOUGLAS</h1>
+
+<code>Desenvolvedor em formação</code> · <code>Web</code> · <code>Automação</code> · <code>Robótica</code>
+
+<p><sub>Construindo software do zero para resolver problemas reais</sub></p>
+
+<img src="https://img.shields.io/badge/-0EA5A4?style=flat-square" width="120" height="4" alt=""/>
+
+<br><br>
 
 <a href="https://muryllodouglashsoares.github.io/portfolio/" target="_blank">
   <img src="https://img.shields.io/badge/Portf%C3%B3lio-0B0F19?style=for-the-badge&logo=googlechrome&logoColor=0EA5A4" alt="Portfólio" />
@@ -10,12 +18,6 @@
 </a>
 <a href="mailto:muryllodouglashsoares@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Email-0B0F19?style=for-the-badge&logo=gmail&logoColor=0EA5A4" alt="Email" />
-</a>
-
-<br><br>
-
-<a href="https://github.com/muryllodouglashsoares">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=1200&color=0EA5A4&center=true&vCenter=true&width=560&lines=Construindo+software+do+zero+para+resolver+problemas+reais;Web+%2B+Automa%C3%A7%C3%A3o+%2B+Rob%C3%B3tica;Preparando-me+para+minha+primeira+oportunidade" alt="Typing SVG" />
 </a>
 
 </div>
@@ -207,6 +209,6 @@ Base técnica construída em projetos práticos, prontos para aplicar resoluçã
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5A4,100:0B0F19&height=100&section=footer" width="100%"/>
+<img src="https://img.shields.io/badge/-0EA5A4?style=flat-square" width="120" height="4" alt=""/>
 
 </div>
