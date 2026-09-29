@@ -1,26 +1,99 @@
-<svg width="900" height="190" viewBox="0 0 900 190" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="250" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Muryllo Douglas — Desenvolvedor em formação · Web · Automação · Robótica" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozMWEzMTVkNi1hYzFlLTRiN2YtOTU3NC1kYThhYzU0MzYwNDQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaG93eC/tvWCApIrPaBVZygAAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpjZjliZDQzYS03ZmQ0LTRlMmQtYjQwOS0wYzU1ZjVlMjIyMWRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNobeMUlmT80YBOp/245iIJKAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggWvPaDJx0DK8m9s3oZ0v78dp0XwRmof+p9tynPAnYYPykZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHUemc2UteBRtaedHGZ4gfQAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIKuRl08RZA/+LgCxTBincydlIG+cMdKDtFMBkIRSjMsGZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEBZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjMxYTMxNWQ2LWFjMWUtNGI3Zi05NTc0LWRhOGFjNTQzNjA0NC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjBlNzJmODcxLTljOTYtNGMyNS1iY2I1LTRkN2Y5Y2EyNWIyZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBa89oMnHQMryb2zehnS/vx2nRfBGah/6n23Kc8Cdhg/KJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg1Oh6cUbQJE8rxgQee3AV82QG4WZ3GgZeGofdbsFenqKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggc/i+1TaYQbpYOGkibX1Wbox02GYgUrli5NtlI/oWoGN0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJct4EG4SkBxuMBHHI2CMseag5o1mG1Cc9BNV/2IWxRO5R6S+ugdJo6nWwuE464SLNAcDITFJ/arO5Kj/jN9rCo=</c2pa:manifest></metadata>
   <defs>
     <linearGradient id="txtGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B5CF6">
-        <animate attributeName="stop-color" values="#8B5CF6;#C084FC;#8B5CF6" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#C084FC">
-        <animate attributeName="stop-color" values="#C084FC;#8B5CF6;#C084FC" dur="4s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0%" stop-color="#8B5CF6"><animate attributeName="stop-color" values="#8B5CF6;#C084FC;#8B5CF6" dur="4s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#C084FC"><animate attributeName="stop-color" values="#C084FC;#8B5CF6;#C084FC" dur="4s" repeatCount="indefinite"/></stop>
     </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#C084FC" opacity="0.13"/>
+    </pattern>
+    <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+      <stop offset="45%" stop-color="#12081F" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#12081F" stop-opacity="1"/>
+    </radialGradient>
+    <clipPath id="typeClip">
+      <rect x="270" y="40" width="0" height="70">
+        <animate attributeName="width" calcMode="discrete" values="0;24;48;72;96;120;144;168;192;216;240;264;288;312;336;360" keyTimes="0.0000;0.0400;0.0520;0.0640;0.0760;0.0880;0.1000;0.1120;0.1240;0.1360;0.1480;0.1600;0.1720;0.1840;0.1960;0.2080" dur="10.0s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
-  <rect width="900" height="190" fill="#12081F"/>
+
+  <rect width="900" height="250" fill="#12081F"/>
+  <rect width="900" height="250" fill="url(#grid)"/>
+  <rect width="900" height="250" fill="url(#vig)"/>
+  <ellipse cx="450" cy="90" rx="330" ry="80" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
   <g>
-    <path d="M0,150 C150,120 300,180 450,150 C600,120 750,180 900,150 L900,190 L0,190 Z" fill="#8B5CF6" opacity="0.15">
-      <animateTransform attributeName="transform" type="translate" values="0,0; -450,0; 0,0" dur="9s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,165 C150,140 300,185 450,165 C600,140 750,185 900,165 L900,190 L0,190 Z" fill="#8B5CF6" opacity="0.3">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 450,0; 0,0" dur="6.5s" repeatCount="indefinite"/>
-    </path>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.9400;0.9800;1.0000" dur="10.0s" repeatCount="indefinite"/>
+
+    <!-- selo de objetivo -->
+    <g transform="translate(450,30)">
+      <rect x="-150" y="-13" width="300" height="26" rx="13" fill="#1A1025" stroke="#3A2A5C"/>
+      <circle cx="-131" cy="0" r="4" fill="#4ADE80">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-118" y="4.5" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#B9A6D9" textLength="256" lengthAdjust="spacing">aberto a estágio · trainee · web</text>
+    </g>
+
+    <!-- nome digitado -->
+    <text x="270" y="98" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="40" font-weight="700" fill="url(#txtGrad)" textLength="360" lengthAdjust="spacing" clip-path="url(#typeClip)">MURYLLO DOUGLAS</text>
+    <rect x="272" y="68" width="9" height="34" fill="#C084FC">
+      <animate attributeName="x" calcMode="discrete" values="272;296;320;344;368;392;416;440;464;488;512;536;560;584;608;632" keyTimes="0.0000;0.0400;0.0520;0.0640;0.0760;0.0880;0.1000;0.1120;0.1240;0.1360;0.1480;0.1600;0.1720;0.1840;0.1960;0.2080" dur="10.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="207" y="134" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="15" fill="#B9A6D9" textLength="486" lengthAdjust="spacing" opacity="0">Desenvolvedor em formação · Web · Automação · Robótica
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.2200;0.2800;1.0000" dur="10.0s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- pipeline: do problema ao deploy -->
+    <line x1="150" y1="190" x2="750" y2="190" stroke="#3A2A5C" stroke-width="2" stroke-dasharray="4 6"/>
+    <rect x="150" y="188.5" width="0" height="3" rx="1.5" fill="#8B5CF6">
+      <animate attributeName="width" values="0;0;0;150;150;300;300;450;450;600;600" keyTimes="0.0000;0.2900;0.3600;0.4100;0.4800;0.5300;0.6000;0.6500;0.7200;0.7700;1.0000" dur="10.0s" repeatCount="indefinite"/>
+    </rect>
+    
+  <circle cx="150" cy="190" r="6" fill="#12081F" stroke="#8B5CF6" stroke-width="2">
+    <animate attributeName="fill" values="#12081F;#12081F;#C084FC;#C084FC" keyTimes="0.0000;0.2800;0.3000;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="150" y="218" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#7C6A9E">entender
+    <animate attributeName="fill" values="#7C6A9E;#7C6A9E;#B9A6D9;#B9A6D9" keyTimes="0.0000;0.2800;0.3000;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </text>
+  <circle cx="300" cy="190" r="6" fill="#12081F" stroke="#8B5CF6" stroke-width="2">
+    <animate attributeName="fill" values="#12081F;#12081F;#C084FC;#C084FC" keyTimes="0.0000;0.4000;0.4200;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="300" y="218" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#7C6A9E">modelar
+    <animate attributeName="fill" values="#7C6A9E;#7C6A9E;#B9A6D9;#B9A6D9" keyTimes="0.0000;0.4000;0.4200;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </text>
+  <circle cx="450" cy="190" r="6" fill="#12081F" stroke="#8B5CF6" stroke-width="2">
+    <animate attributeName="fill" values="#12081F;#12081F;#C084FC;#C084FC" keyTimes="0.0000;0.5200;0.5400;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="450" y="218" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#7C6A9E">versionar
+    <animate attributeName="fill" values="#7C6A9E;#7C6A9E;#B9A6D9;#B9A6D9" keyTimes="0.0000;0.5200;0.5400;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </text>
+  <circle cx="600" cy="190" r="6" fill="#12081F" stroke="#8B5CF6" stroke-width="2">
+    <animate attributeName="fill" values="#12081F;#12081F;#C084FC;#C084FC" keyTimes="0.0000;0.6400;0.6600;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="218" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#7C6A9E">desenvolver
+    <animate attributeName="fill" values="#7C6A9E;#7C6A9E;#B9A6D9;#B9A6D9" keyTimes="0.0000;0.6400;0.6600;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </text>
+  <circle cx="750" cy="190" r="6" fill="#12081F" stroke="#8B5CF6" stroke-width="2">
+    <animate attributeName="fill" values="#12081F;#12081F;#C084FC;#C084FC" keyTimes="0.0000;0.7600;0.7800;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="750" y="218" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#7C6A9E">deploy
+    <animate attributeName="fill" values="#7C6A9E;#7C6A9E;#B9A6D9;#B9A6D9" keyTimes="0.0000;0.7600;0.7800;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </text>
+  <circle cx="750" cy="190" r="6" fill="none" stroke="#C084FC" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="6;6;20;20" keyTimes="0.0000;0.7700;0.8600;1.0000" dur="10.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0;0" keyTimes="0.0000;0.7700;0.8600;1.0000" dur="10.0s" repeatCount="indefinite"/>
+  </circle>
+    <circle cx="150" cy="190" r="3.5" fill="#fff" opacity="0.9">
+      <animate attributeName="cx" values="150;150;150;300;300;450;450;600;600;750;750" keyTimes="0.0000;0.2900;0.3600;0.4100;0.4800;0.5300;0.6000;0.6500;0.7200;0.7700;1.0000" dur="10.0s" repeatCount="indefinite"/>
+    </circle>
   </g>
-  <text x="450" y="82" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="40" font-weight="700" fill="url(#txtGrad)" text-anchor="middle">MURYLLO DOUGLAS</text>
-  <rect x="672" y="58" width="9" height="30" fill="#C084FC">
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
-  <text x="450" y="118" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#B9A6D9" text-anchor="middle">Desenvolvedor em formação · Web · Automação · Robótica</text>
 </svg>
