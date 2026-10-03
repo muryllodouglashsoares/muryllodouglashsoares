@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/hero.svg" width="100%" alt="Muryllo Douglas"/>
+<img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/hero.svg?v=2" width="100%" alt="Muryllo Douglas — Construindo software do zero para resolver problemas reais"/>
 
-<sub>Construindo software do zero para resolver problemas reais</sub>
-
-<br><br>
+<br>
 
 <a href="https://muryllodouglashsoares.github.io/portfolio/" target="_blank">
   <img src="https://img.shields.io/badge/Portf%C3%B3lio-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6" alt="Portfólio" />
