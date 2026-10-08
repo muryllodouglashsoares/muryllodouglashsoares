@@ -1,208 +1,68 @@
-<div align="center">
+# Muryllo Douglas
 
-<img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/hero.svg?v=2" width="100%" alt="Muryllo Douglas — Construindo software do zero para resolver problemas reais"/>
+**Estudante de Informática e desenvolvedor em formação** · foco em desenvolvimento web e construção de software
 
-<br>
+Curso o Ensino Médio Integrado ao Técnico em Informática no **IFPB Campus Itaporanga** e me preparo para a graduação em Ciência da Computação. Aprendo construindo: meus projetos saíram de interfaces estáticas para sistemas com autenticação, banco de dados, API própria, testes e deploy automatizado.
 
-<a href="https://muryllodouglashsoares.github.io/portfolio/" target="_blank">
-  <img src="https://img.shields.io/badge/Portf%C3%B3lio-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6" alt="Portfólio" />
-</a>
-<a href="https://linkedin.com/in/muryllodouglashsoares" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-12081F?style=for-the-badge&logo=linkedin&logoColor=8B5CF6" alt="LinkedIn" />
-</a>
-<a href="mailto:muryllodouglashsoares@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-12081F?style=for-the-badge&logo=gmail&logoColor=8B5CF6" alt="Email" />
-</a>
-
-</div>
-
-<br>
-
-## Sobre mim
-
-Estudante de Informática no IFPB e desenvolvedor em formação, com foco em **desenvolvimento web** e interesse crescente em **automação e robótica autônoma**.
-
-Minha forma de trabalhar começa em entender o problema antes de escrever qualquer linha de código — só então penso na solução técnica. Já passei pelo ciclo completo de projetos próprios: concepção, modelagem, versionamento, desenvolvimento e deploy. Hoje, meu foco é transformar essa base prática em resultado dentro de um time de verdade.
-
-<br>
-
-## Stack
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**CORE** · uso em projetos reais
-
-<img src="https://img.shields.io/badge/JavaScript-12081F?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/TypeScript-12081F?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/HTML5-12081F?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-12081F?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3"/>
-<img src="https://img.shields.io/badge/Firebase-12081F?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase"/>
-<img src="https://img.shields.io/badge/Git-12081F?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"/>
-<img src="https://img.shields.io/badge/GitHub-12081F?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"/>
-<img src="https://img.shields.io/badge/VS%20Code-12081F?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code"/>
-<img src="https://img.shields.io/badge/LEGO%20SPIKE%20Prime-12081F?style=for-the-badge&logo=lego&logoColor=E01A22" alt="LEGO SPIKE Prime"/>
-
-</td>
-<td valign="top" width="50%">
-
-**EXPLORING** · estudando atualmente
-
-<img src="https://img.shields.io/badge/Python-1A1025?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"/>
-<img src="https://img.shields.io/badge/Estruturas%20de%20Dados-1A1025?style=for-the-badge&logo=leetcode&logoColor=F1C21B" alt="Estruturas de Dados"/>
-<img src="https://img.shields.io/badge/Arquitetura%20de%20Software-1A1025?style=for-the-badge&logo=blueprint&logoColor=8B5CF6" alt="Arquitetura de Software"/>
-<img src="https://img.shields.io/badge/Rob%C3%B3tica%20Aut%C3%B4noma-1A1025?style=for-the-badge&logo=robotframework&logoColor=8B5CF6" alt="Robótica Autônoma"/>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## Featured Projects
-
-<br>
-
-### Tekidu — projeto principal
-
-<table>
-<tr>
-<td width="60%" valign="top">
-
-Plataforma web para acompanhamento acadêmico: registro de notas estudantis e visualização da evolução do aluno ao longo da trajetória escolar.
-
-**Tecnologias:** TypeScript · Web
-**Status:** 🟢 Em desenvolvimento contínuo
-
-<a href="https://github.com/muryllodouglashsoares/Tekidu">
-  <img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-12081F?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Ver código"/>
-</a>
-<a href="https://tekidu.muryllodouglash-soares.workers.dev/">
-  <img src="https://img.shields.io/badge/Abrir%20aplica%C3%A7%C3%A3o-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=12081F" alt="Abrir aplicação"/>
-</a>
-
-</td>
-<td width="40%" valign="top">
-
-<!-- Sugestão: adicione aqui um screenshot ou GIF curto (≤2MB) da interface do Tekidu -->
-<img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/preview.png" width="100%" alt="Preview do Tekidu"/>
-
-</td>
-</tr>
-</table>
+[Portfólio](https://portfolio-c1u.pages.dev) · [LinkedIn](https://linkedin.com/in/muryllodouglashsoares) · [muryllodouglashsoares@gmail.com](mailto:muryllodouglashsoares@gmail.com)
 
 ---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## Projetos
 
-**[IFConnect](https://github.com/muryllodouglashsoares/plataforma-comunicacao)**
-Rede social acadêmica para conectar alunos, professores e administradores do IFPB.
-Feed de posts, chat em tempo real, grupos, badges de conquistas, verificação de e-mail institucional e painel administrativo.
-`JavaScript` `Firebase` `HTML5` `CSS3`
-**Status:** Versão estável em evolução
+### [LexContract](https://github.com/muryllodouglashsoares/law-contract-management) — projeto principal · [demo](https://law-contract-management.pages.dev)
 
-</td>
-<td width="50%" valign="top">
+SaaS B2B para gestão de contratos de prestação de serviços jurídicos, voltado a advogados autônomos e pequenos escritórios. Cada escritório (tenant) gerencia clientes, modelos, contratos, documentos, pagamentos e histórico de auditoria.
 
-**Robô de Resgate — OBR**
-Robô autônomo para missões simuladas de resgate na Olimpíada Brasileira de Robótica.
-Navegação autônoma em pistas complexas e execução de missões de detecção.
-`Python` `Robótica Autônoma` `Sensores`
-**Status:** Em desenvolvimento ativo
+- **Backend próprio:** API em Fastify + TypeScript, PostgreSQL com Prisma, arquitetura de monolito modular por domínio
+- **Segurança:** autenticação JWT, RBAC por papel verificado no backend, isolamento de dados entre escritórios, validação com Zod
+- **Qualidade e operação:** testes unitários e de integração (Vitest), testes E2E (Playwright), Docker, CI/CD com GitHub Actions
+- **Documentação:** decisões técnicas e trade-offs registrados no próprio repositório
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+`React` `TypeScript` `Fastify` `PostgreSQL` `Prisma` `Playwright` `Docker`
 
-**Sistema de Alarme de Incêndio**
-Sistema embarcado de segurança com detecção e resposta em tempo real a partir de sensores de fumaça e temperatura, disparando alertas integrados.
-`Sistemas Embarcados` `Automação` `Sensores`
+### [Tekidu](https://github.com/muryllodouglashsoares/Tekidu) · [demo](https://tekidu.pages.dev)
 
-</td>
-<td width="50%" valign="top">
+Plataforma de gestão acadêmica com três perfis (administrador, professor e estudante): notas, frequência, boletim e avisos.
 
-&nbsp;
+- Permissões garantidas no banco com **Firestore Security Rules**, e não apenas escondidas na interface
+- Regras de segurança cobertas por testes automatizados (Vitest + Firebase Emulator)
+- Code splitting por perfil de usuário e camada de serviços separada por domínio
 
-</td>
-</tr>
-</table>
+`React` `TypeScript` `Firebase Auth` `Firestore` `Vitest`
 
-<br>
+### Outros projetos
 
-## Other Projects
+| Projeto | O que mostra |
+|---|---|
+| [IFConnect](https://github.com/muryllodouglashsoares/IFConnect) | Rede social acadêmica em JavaScript puro, com autenticação, feed, chat em tempo real e moderação (Firebase). Foi onde aprendi, na prática, os limites de um app sem backend próprio. |
+| [Portfólio](https://github.com/muryllodouglashsoares/portfolio) · [site](https://portfolio-c1u.pages.dev) | Meu portfólio pessoal: interface, responsividade e deploy contínuo. |
+| [Mini Olimpíada de Robótica](https://github.com/muryllodouglashsoares/mini-robotics-competition) | Robô seguidor de linha em LEGO SPIKE Prime, com duas abordagens comparadas: blocos com 2 sensores e Python com 1 sensor. |
+| [Savora](https://github.com/muryllodouglashsoares/savora-landing-page) · [demo](https://savora-landing-page.muryllodouglash-soares.workers.dev/) | Landing page e cardápio digital de um restaurante fictício, com foco em UI/UX e formulário de reservas integrado. |
 
-<details>
-<summary><strong>Ver projetos adicionais</strong></summary>
-<br>
+---
 
-| Projeto | Descrição | Tecnologias |
-|---|---|---|
-| [Mini Competição de Robótica](https://github.com/muryllodouglashsoares/mini-robotics-competition) | Controle de motores e integração de sensores com LEGO SPIKE Prime para competições educacionais sob pressão de tempo | LEGO SPIKE Prime |
-| [Savora Landing Page](https://github.com/muryllodouglashsoares/savora-landing-page) · [demo](https://savora-landing-page.muryllodouglash-soares.workers.dev/) | Landing page premium com cardápio digital para restaurante fictício, com foco em UI/UX responsiva | TypeScript |
-| [Clínica Landing Page](https://github.com/muryllodouglashsoares/clinica-landing-page) | Interface voltada à conversão, layout limpo e responsivo, simulação para clínica | TypeScript |
-| [Academia Landing Page](https://github.com/muryllodouglashsoares/gym-landing-page) | Interface voltada à conversão, layout limpo e responsivo, simulação para academia | TypeScript |
+## Evolução
 
-</details>
+Robótica e programação → interfaces web → autenticação e dados (**IFConnect**) → autorização no banco e testes (**Tekidu**) → backend próprio, banco relacional, E2E e CI/CD (**LexContract**).
 
-<br>
+## Tecnologias
 
-## Currently Learning
+Apenas o que aparece nos projetos acima.
 
-```
-Estruturas de Dados e Algoritmos    → fundamentos para código eficiente
-Web moderno & TypeScript            → aprofundando o ecossistema front-end
-Arquitetura de Software             → modelagem, separação de responsabilidades, código limpo
-Automação e Robótica Autônoma       → navegação, sinais de sensores, integração hardware/software
-```
+| | |
+|---|---|
+| **Frontend** | React, TypeScript, JavaScript, Vite, Tailwind CSS, HTML, CSS |
+| **Backend** | Node.js, Fastify, Prisma, Zod, JWT |
+| **Dados** | PostgreSQL, Firebase (Auth, Firestore, Realtime Database) |
+| **Testes** | Vitest, Playwright, Firebase Emulator |
+| **Deploy e ferramentas** | Git, GitHub Actions, Docker, Cloudflare |
+| **Robótica** | Python, LEGO SPIKE Prime |
 
-<br>
+## Estudando agora
 
-## Engineering Practices
+Estruturas de dados e algoritmos · arquitetura de software · aprofundamento em backend e modelagem de dados
 
-- **Versionamento** — Git/GitHub para histórico organizado de desenvolvimento
-- **Deploy** — hospedagem de interfaces em plataformas serverless (Cloudflare Workers)
-- **UI/UX** — aplicações componentizadas, design responsivo e mobile-first
-- **Organização de código** — foco em legibilidade e escaneabilidade
+---
 
-<br>
-
-<div align="center">
-
-## Open to Opportunities
-
-**Buscando minha primeira oportunidade profissional em tecnologia**
-como **Estagiário** ou **Desenvolvedor Trainee** — Web / Software
-
-Base técnica construída em projetos práticos, prontos para aplicar resolução de problemas e adaptabilidade em um time real.
-
-</div>
-
-<br>
-
-## Contato
-
-<div align="center">
-
-<a href="https://muryllodouglashsoares.github.io/portfolio/" target="_blank">
-  <img src="https://img.shields.io/badge/Portf%C3%B3lio-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6" alt="Portfólio" />
-</a>
-<a href="https://linkedin.com/in/muryllodouglashsoares" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-12081F?style=for-the-badge&logo=linkedin&logoColor=8B5CF6" alt="LinkedIn" />
-</a>
-<a href="mailto:muryllodouglashsoares@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-12081F?style=for-the-badge&logo=gmail&logoColor=8B5CF6" alt="Email" />
-</a>
-
-<br><br>
-
-<i>"A capacidade de construir resolve a maioria dos problemas."</i>
-
-<br><br>
-
-<img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/footer_wave.svg" width="100%" alt=""/>
-
-</div>
+**Busco estágio em desenvolvimento de software.** O melhor lugar para avaliar meu trabalho é o código dos projetos acima; fico à disposição por [LinkedIn](https://linkedin.com/in/muryllodouglashsoares) ou [e-mail](mailto:muryllodouglashsoares@gmail.com).
