@@ -4,7 +4,7 @@
 
 <br>
 
-<a href="https://muryllodouglashsoares.github.io/portfolio/" target="_blank">
+<a href="https://portfolio-c1u.pages.dev/" target="_blank">
   <img src="https://img.shields.io/badge/Portf%C3%B3lio-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6" alt="Portfólio" />
 </a>
 <a href="https://linkedin.com/in/muryllodouglashsoares" target="_blank">
@@ -20,11 +20,17 @@
 
 ## Sobre mim
 
-Estudante do curso técnico integrado em Informática do **IFPB — Campus Itaporanga** e desenvolvedor em formação, com foco em **desenvolvimento web e engenharia de software**. Também estudo estruturas de dados, arquitetura de software e robótica autônoma.
+Estudante de Informática (Ensino Médio Integrado ao Técnico) no **IFPB — Campus Itaporanga** e desenvolvedor em formação. Construo projetos reais porque acredito que a melhor forma de aprender é fazendo.
 
-Aprendo construindo: meus projetos próprios cobrem interface, autenticação, persistência de dados, integração com serviços externos e deploy. Gosto de entender o problema antes de escolher a solução técnica.
+Meu foco é desenvolvimento web (front-end e back-end), com interesse em automação, robótica, arquitetura de software e estruturas de dados. Não estou tentando parecer alguém com anos de experiência: mostro o que consigo construir agora e evoluo rápido.
 
-**Busco minha primeira oportunidade como estagiário ou desenvolvedor trainee**, para evoluir dentro de uma equipe de desenvolvimento.
+**Busco minha primeira oportunidade como estagiário ou desenvolvedor trainee.**
+
+**Minha evolução, projeto a projeto:**
+
+```
+Landing pages  →  Interfaces com lógica  →  Autenticação e dados  →  Autorização e arquitetura
+```
 
 <br>
 
@@ -36,15 +42,16 @@ Aprendo construindo: meus projetos próprios cobrem interface, autenticação, p
 <tr>
 <td width="60%" valign="top">
 
-Plataforma web que reúne notas, frequência, boletim, turmas e avisos em um só lugar, com experiências separadas para **administradores, professores e estudantes**.
+Plataforma que substitui planilhas e sistemas dispersos por um único ambiente para notas, frequência, boletim, turmas e comunicados, com **quatro experiências** separadas: administrador, professor, estudante e responsável (somente leitura).
 
-- Login, primeiro acesso (com e-mail transacional via EmailJS) e recuperação de senha, com Firebase Authentication.
-- Permissões por perfil validadas nas **Firestore Security Rules**, não apenas na interface.
-- **Testes automatizados** com Vitest: regras de negócio (médias e frequência) e Security Rules, estas via Firebase Emulator.
-- Camada de serviços por domínio, code splitting por perfil e log de auditoria básico para alterações sensíveis.
+- Autenticação com Firebase (login, primeiro acesso com e-mail transacional e recuperação de senha).
+- Autorização por perfil nas **Firestore Security Rules**, não apenas escondida na interface, com suíte própria de testes (Vitest + Firebase Emulator).
+- Notas, médias, boletim, frequência por sessão, relatórios e justificativas de falta com documento comprobatório.
+- Exportação de boletim em PDF e de frequência e relatórios em Excel/PDF.
+- PWA instalável, painel de acessibilidade, dark mode e navegação mobile dedicada.
 
-**Stack:** React 18 · TypeScript · Vite · Tailwind CSS · Firebase (Auth + Firestore) · Cloudflare Pages
-**Status:** em desenvolvimento contínuo
+**Stack:** React 18 · TypeScript · Vite · Tailwind CSS · Framer Motion · React Router · Firebase Auth · Cloud Firestore · Cloudflare Pages Functions · Vitest
+**Status:** em desenvolvimento
 
 <a href="https://github.com/muryllodouglashsoares/Tekidu">
   <img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-12081F?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Ver código"/>
@@ -52,18 +59,42 @@ Plataforma web que reúne notas, frequência, boletim, turmas e avisos em um só
 <a href="https://tekidu.pages.dev/">
   <img src="https://img.shields.io/badge/Abrir%20aplica%C3%A7%C3%A3o-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=12081F" alt="Abrir aplicação"/>
 </a>
-<a href="https://github.com/muryllodouglashsoares/Tekidu#readme">
-  <img src="https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-12081F?style=for-the-badge&logo=markdown&logoColor=8B5CF6" alt="Documentação"/>
+<a href="https://portfolio-c1u.pages.dev/projects/tekidu">
+  <img src="https://img.shields.io/badge/Estudo%20de%20caso-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6" alt="Estudo de caso no portfólio"/>
 </a>
 
 </td>
 <td width="40%" valign="top">
 
-<img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/preview.png" width="100%" alt="Preview do Tekidu"/>
+<img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/docs/screenshots/landing-page.png" width="100%" alt="Landing page do Tekidu"/>
+<img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/docs/screenshots/dashboard.png" width="100%" alt="Dashboard do Tekidu"/>
 
 </td>
 </tr>
 </table>
+
+**Arquitetura**
+
+```mermaid
+flowchart LR
+  UI["React + TypeScript<br/>4 experiências de UI"] --> S["Camada de serviços<br/>por domínio"]
+  S --> A["Firebase Auth"]
+  S --> F["Cloud Firestore"]
+  F --> R["Security Rules<br/>autorização por perfil"]
+  UI -.-> E["Pages Functions<br/>e-mail de primeiro acesso"]
+```
+
+<details>
+<summary><strong>Dois desafios técnicos que enfrentei</strong></summary>
+<br>
+
+**1. Esconder botões não protege os dados.** Um usuário autenticado ainda poderia ler ou escrever dados de outro perfil direto na API do Firestore. Revisei o que cada perfil precisa ler e escrever e passei a autorização para as Security Rules, testadas com Vitest, Firebase Emulator e `@firebase/rules-unit-testing`, com cenários de acesso permitido e negado.
+
+**2. Um estudante não deveria baixar o código do painel administrativo.** Mapeei as rotas por perfil e passei a carregar a maioria das páginas sob demanda com `React.lazy` e `Suspense`, agrupadas por perfil.
+
+**O que ainda falta (conforme o roadmap do repositório):** pipeline de CI/CD, testes de componentes de interface, monitoramento de erros em produção e auditoria de acessibilidade.
+
+</details>
 
 <br>
 
@@ -73,22 +104,24 @@ Plataforma web que reúne notas, frequência, boletim, turmas e avisos em um só
 <tr>
 <td width="60%" valign="top">
 
-Plataforma para conectar alunos, professores e administradores em um ambiente digital integrado, reunindo comunicação e moderação de conteúdo.
+Comunicação acadêmica costuma ficar fragmentada entre grupos de mensagem, murais e avisos soltos. O IFConnect reúne feed social, chat em tempo real e painel administrativo, com permissões distintas para aluno, professor e administrador.
 
-- Feed com curtidas, comentários e seguidores; chat privado e em grupo em tempo real; notificações e badges de conquistas.
 - Cadastro e login por e-mail/senha e Google, com verificação de e-mail e recuperação de senha.
-- Cargos (aluno, professor, administrador), denúncias, fila de moderação e painel administrativo.
-- Aplicação em JavaScript puro conectada diretamente ao Firebase, sem backend próprio; o controle de permissões por cargo fica no cliente (no Tekidu, ele é validado nas Security Rules).
+- Feed com curtidas, upvotes e comentários, seguidores e feed personalizado.
+- Chat privado e em grupo em tempo real, notificações, badges e conquistas.
+- Cargos com permissões distintas e painel de moderação.
+- Feito em **JavaScript puro**, sem framework, integrado direto ao Firebase. Não há backend próprio: as permissões por cargo ficam no código do cliente (no Tekidu, a autorização é validada no banco).
 
-**Stack:** JavaScript · HTML5 · CSS3 · Firebase Authentication · Realtime Database
-**Status:** em evolução
+**Stack:** JavaScript · HTML · CSS · Firebase Auth · Realtime Database
+**Status:** concluído
 
-[Código](https://github.com/muryllodouglashsoares/IFConnect) · [Demonstração](https://ifconnect.pages.dev/) · [Documentação](https://github.com/muryllodouglashsoares/IFConnect#readme)
+[Código](https://github.com/muryllodouglashsoares/IFConnect) · [Estudo de caso no portfólio](https://portfolio-c1u.pages.dev/projects/ifconnect)
 
 </td>
 <td width="40%" valign="top">
 
 <img src="https://github.com/muryllodouglashsoares/IFConnect/raw/main/screenshots/Captura%20de%20Tela%20(206).png" width="100%" alt="Feed do IFConnect"/>
+<img src="https://github.com/muryllodouglashsoares/IFConnect/raw/main/screenshots/Captura%20de%20Tela%20(212).png" width="100%" alt="Painel administrativo do IFConnect"/>
 
 </td>
 </tr>
@@ -98,32 +131,39 @@ Plataforma para conectar alunos, professores e administradores em um ambiente di
 
 ### Savora — landing page com reservas integradas
 
-Site de um restaurante **fictício**, com cardápio digital e animações, mas também com um fluxo real de ponta a ponta: o formulário de reservas chama uma *server function* que roda no Cloudflare Worker e repassa os dados a um webhook do Make, cuja URL fica em um secret do servidor, fora do bundle do navegador. A base do projeto foi iniciada no Lovable e evoluída manualmente.
+<table>
+<tr>
+<td width="60%" valign="top">
 
-**Stack:** React 19 · TypeScript · TanStack Start · Tailwind CSS 4 · Motion · React Hook Form · Cloudflare Workers
+Peça de portfólio que mostra a diferença entre uma landing page bonita e uma entrega completa: animação autoral na hero e um formulário que realmente termina em algum lugar. O restaurante e seus dados são **fictícios**.
 
-[Código](https://github.com/muryllodouglashsoares/savora-landing-page) · [Demonstração](https://savora-landing-page.muryllodouglash-soares.workers.dev/) · [Documentação](https://github.com/muryllodouglashsoares/savora-landing-page#readme)
+- Hero com a montagem animada de um prato, feita só com `transform` e `opacity` e com versão estática para `prefers-reduced-motion`.
+- Cardápio digital por categoria, galeria, avaliações, FAQ e mapa de localização.
+- Reservas de ponta a ponta: React Hook Form → server function → webhook do Make → Google Sheets → relatório em PDF.
+- Iniciado no Lovable e evoluído manualmente, incluindo a limpeza do scaffold de UI.
+
+**Stack:** React 19 · TypeScript · TanStack Start · Tailwind CSS 4 · Motion · shadcn/ui · React Hook Form · Cloudflare Workers
+
+[Código](https://github.com/muryllodouglashsoares/savora-landing-page) · [Demonstração](https://savora-landing-page.muryllodouglash-soares.workers.dev/) · [Estudo de caso no portfólio](https://portfolio-c1u.pages.dev/projects/savora)
+
+</td>
+<td width="40%" valign="top">
+
+<img src="https://github.com/muryllodouglashsoares/savora-landing-page/raw/main/screenshots/Pagina_principal.png" width="100%" alt="Página principal do Savora"/>
+
+</td>
+</tr>
+</table>
 
 <br>
 
-## Robótica e sistemas embarcados
-
-Projetos em que aplico lógica, sensores e controle de motores em hardware real.
-
-- **[Mini Olimpíada de Robótica](https://github.com/muryllodouglashsoares/mini-robotics-competition)** — robô seguidor de linha com LEGO SPIKE Prime, em duas versões: dois sensores de cor (programação em blocos) e um sensor (Python). O repositório inclui fotos, vídeos e as regras da prova.
-- **Robô de Resgate — OBR** — robô autônomo para missões simuladas de resgate na Olimpíada Brasileira de Robótica. *Em desenvolvimento.*
-- **Sistema de Alarme de Incêndio** — sistema embarcado que lê sensores de fumaça e temperatura para disparar alertas.
-
-<br>
-
-## Outros projetos web
-
-Landing pages fictícias, com demonstração publicada e foco em interface responsiva, SEO e formulários integrados.
+## Outros projetos
 
 | Projeto | O que demonstra | Links |
 |---|---|---|
-| **FORJA Training Studio** | Formulário validado no cliente e no servidor com o mesmo schema Zod, campo honeypot, integração com Make → Google Sheets e testes automatizados do envio (`node:test`). React 19, TypeScript, TanStack Start. | [Código](https://github.com/muryllodouglashsoares/gym-landing-page) · [Demo](https://gym-landing-page.muryllodouglash-soares.workers.dev/) |
-| **OdontoPrime** | Renderização no servidor (SSR), dados estruturados (JSON-LD), `sitemap.xml` e endpoint de contato que valida o envio e o encaminha a um webhook. TanStack Start, React 19. | [Código](https://github.com/muryllodouglashsoares/clinica-landing-page) · [Demo](https://clinica-landing-page.muryllodouglash-soares.workers.dev/) |
+| **FORJA Training Studio** *(fictício)* | Landing page com formulário validado em duas camadas (cliente com Zod e servidor), campo honeypot anti-bot, integração Make → Google Sheets e SEO técnico (JSON-LD, Open Graph, sitemap). TanStack Start · React 19 · TypeScript · Tailwind CSS 4. | [Código](https://github.com/muryllodouglashsoares/gym-landing-page) · [Demo](https://gym-landing-page.muryllodouglash-soares.workers.dev/) · [Portfólio](https://portfolio-c1u.pages.dev/projects/forja) |
+| **OdontoPrime** *(fictício)* | Landing page renderizada via SSR a partir de um design de referência, com dados estruturados (`Dentist` e `FAQPage`) e formulário integrado a webhook, com modo demonstração. TanStack Start · React 19 · TypeScript. | [Código](https://github.com/muryllodouglashsoares/clinica-landing-page) · [Demo](https://clinica-landing-page.muryllodouglash-soares.workers.dev/) · [Portfólio](https://portfolio-c1u.pages.dev/projects/odontoprime) |
+| **Mini Olimpíada de Robótica** | Robô seguidor de linha em LEGO Spike Prime para a competição do IFPB, com duas abordagens comparadas: dois sensores de cor em blocos e um sensor em Python. O repositório traz fotos e vídeos do processo. | [Código](https://github.com/muryllodouglashsoares/mini-robotics-competition) · [Portfólio](https://portfolio-c1u.pages.dev/projects/mini-olimpiada-robotica) |
 
 <br>
 
@@ -131,30 +171,34 @@ Landing pages fictícias, com demonstração publicada e foco em interface respo
 
 **Usada nos projetos**
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind,firebase,cloudflare,vitest,git&theme=dark&perline=10" alt="JavaScript, TypeScript, React, HTML5, CSS3, Tailwind CSS, Firebase, Cloudflare, Vitest e Git"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,firebase,cloudflare,vitest,git,python&theme=dark&perline=11" alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Firebase, Cloudflare, Vitest, Git e Python"/>
 
-<sub>JavaScript · TypeScript · React · HTML5 · CSS3 · Tailwind CSS · Firebase · Cloudflare · Vitest · Git · LEGO SPIKE Prime (robótica)</sub>
+<sub>HTML · CSS · JavaScript · TypeScript · React · Tailwind CSS · TanStack Start · Firebase Auth · Cloud Firestore · Realtime Database · Vitest + Firebase Emulator · Zod · Make · Cloudflare · Git/GitHub · Python · LEGO Spike Prime</sub>
 
-**Estudando e aprofundando**
+**Atualmente estudando**
 
-<img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python"/>
-
-<sub>Python · Estruturas de dados · Arquitetura de software · Robótica autônoma</sub>
+Estruturas de dados e algoritmos · Arquitetura de software · Programação competitiva · Backend e regras de autorização · Robótica autônoma e automação
 
 <br>
 
 ## Práticas de engenharia
 
-Cada ponto abaixo tem evidência no código ou na documentação de um dos projetos acima.
+Só o que já apareceu em código real nos projetos acima:
 
-- **Controle de acesso no banco** — permissões por perfil em Firestore Security Rules (Tekidu).
-- **Testes automatizados** — Vitest e Firebase Emulator para regras de negócio e Security Rules (Tekidu); `node:test` para o tratamento do formulário (FORJA).
-- **Validação e tratamento de erros** — schema Zod compartilhado entre cliente e servidor, honeypot, timeout e resposta de falha sem expor dados (FORJA).
-- **Segredos fora do cliente** — URLs de webhook lidas apenas no servidor (Savora, FORJA, OdontoPrime).
-- **Organização do código** — serviços por domínio e carregamento sob demanda por perfil (Tekidu).
-- **Versionamento e deploy** — Git/GitHub e publicação em Cloudflare Pages e Workers.
+- **Autorização no banco** — permissões por perfil em Firestore Security Rules, com testes (Tekidu).
+- **Qualidade** — testes das regras de segurança com Vitest e Firebase Emulator; validação de formulário em duas camadas (FORJA); code splitting por perfil (Tekidu).
+- **Organização** — camada de serviços por domínio, componentes reaproveitados entre telas e log de auditoria assíncrono para alterações sensíveis (Tekidu).
+- **Credenciais fora do cliente** — e-mail de primeiro acesso enviado por Cloudflare Pages Functions (Tekidu).
+- **Integração e deploy** — formulários ligados a automações reais (Make → Google Sheets) e publicação em Cloudflare Pages e Workers, com Git e GitHub em todos os projetos.
 
-**Em evolução:** CI/CD, testes de componentes de interface, acessibilidade e monitoramento de erros — itens que ainda constam como próximos passos no roadmap do Tekidu.
+<br>
+
+## Próximos passos
+
+- Aprofundar back-end e modelagem de dados além do Firebase, incluindo bancos relacionais.
+- Evoluir o Tekidu com mais recursos acadêmicos e melhor cobertura de testes.
+- Aplicar estruturas de dados e arquitetura de software em projetos de maior escala.
+- Ganhar experiência prática em automação e robótica autônoma.
 
 <br>
 
@@ -165,15 +209,11 @@ Cada ponto abaixo tem evidência no código ou na documentação de um dos proje
 **Buscando minha primeira oportunidade profissional em tecnologia**
 como **Estagiário** ou **Desenvolvedor Trainee** — Web / Software
 
-Quero aplicar o que construí nos projetos acima e continuar aprendendo com uma equipe real.
+Estou sempre aberto a oportunidades de aprendizado e a experiências em que eu possa contribuir e continuar evoluindo como desenvolvedor.
 
+<a href="https://portfolio-c1u.pages.dev/">Portfólio</a> ·
 <a href="https://linkedin.com/in/muryllodouglashsoares">LinkedIn</a> ·
-<a href="mailto:muryllodouglashsoares@gmail.com">E-mail</a> ·
-<a href="https://muryllodouglashsoares.github.io/portfolio/">Portfólio</a>
-
-<br>
-
-<i>"A capacidade de construir resolve a maioria dos problemas."</i>
+<a href="mailto:muryllodouglashsoares@gmail.com">E-mail</a>
 
 <br><br>
 
