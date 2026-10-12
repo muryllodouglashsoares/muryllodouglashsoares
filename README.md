@@ -205,11 +205,11 @@ Peça de portfólio que mostra a diferença entre uma landing page bonita e uma 
 
 ## Stack
 
-**Usada nos projetos**
+**Usada nos projetos e no ambiente de desenvolvimento**
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,fastify,postgres,prisma,firebase,cloudflare,docker,vitest,git,python&theme=dark&perline=8" alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Node.js, Fastify, PostgreSQL, Prisma, Firebase, Cloudflare, Docker, Vitest, Git e Python"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,fastify,postgres,prisma,firebase,cloudflare,docker,vitest,git,python,windows,linux,arch&theme=dark&perline=8" alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Node.js, Fastify, PostgreSQL, Prisma, Firebase, Cloudflare, Docker, Vitest, Git, Python, Windows, Linux e Arch Linux"/>
 
-<sub>HTML · CSS · JavaScript · TypeScript · React · Tailwind CSS · TanStack Start · Node.js · Fastify · Prisma · PostgreSQL · Firebase Auth · Cloud Firestore · Realtime Database · Vitest · Playwright · Firebase Emulator · Zod · Make · Docker · Cloudflare · Git/GitHub · GitHub Actions · Python · LEGO Spike Prime</sub>
+<sub>HTML · CSS · JavaScript · TypeScript · React · Tailwind CSS · TanStack Start · Node.js · Fastify · Prisma · PostgreSQL · Firebase Auth · Cloud Firestore · Realtime Database · Vitest · Playwright · Firebase Emulator · Zod · Make · Docker · Cloudflare · Git/GitHub · GitHub Actions · Python · Windows · Linux · Arch Linux · LEGO Spike Prime</sub>
 
 **Atualmente estudando**
 
