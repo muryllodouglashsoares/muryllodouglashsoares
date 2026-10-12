@@ -22,14 +22,14 @@
 
 Estudante de Informática (Ensino Médio Integrado ao Técnico) no **IFPB — Campus Itaporanga** e desenvolvedor em formação. Construo projetos reais porque acredito que a melhor forma de aprender é fazendo.
 
-Meu foco é desenvolvimento web (front-end e back-end), com interesse em automação, robótica, arquitetura de software e estruturas de dados. Não estou tentando parecer alguém com anos de experiência: mostro o que consigo construir agora e evoluo rápido.
+Meu foco é desenvolvimento web, com interesse em automação, robótica, arquitetura de software e estruturas de dados. Não estou tentando parecer alguém com anos de experiência: mostro o que consigo construir agora e evoluo rápido.
 
 **Busco minha primeira oportunidade como estagiário ou desenvolvedor trainee.**
 
 **Minha evolução, projeto a projeto:**
 
 ```
-Landing pages  →  Interfaces com lógica  →  Autenticação e dados  →  Autorização e arquitetura
+Fundamentos  →  Exploração  →  Construção  →  Publicação  →  Evolução
 ```
 
 <br>
@@ -98,6 +98,54 @@ flowchart LR
 
 <br>
 
+### LexContract — gestão de contratos jurídicos (SaaS B2B)
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+Pequenos escritórios de advocacia costumam gerenciar clientes, contratos, modelos e cobranças em planilhas, e-mail e papel, sem rastreabilidade. O LexContract centraliza esse fluxo: cada escritório cadastra clientes, gera contratos a partir de modelos reutilizáveis e acompanha o ciclo do contrato, com documentos, parcelas de pagamento e histórico de auditoria.
+
+- API própria em **Fastify + TypeScript**, com dados relacionais em **PostgreSQL** via **Prisma**.
+- Autenticação com **JWT** e permissões por papel (`ADMIN`, `LAWYER`, `ASSISTANT`) verificadas **no backend**, não só na interface.
+- **Multi-tenant por escritório**: os services filtram os dados pelo `officeId` do usuário autenticado.
+- Contratos gerados a partir de modelos com variáveis, versionamento do conteúdo e transições de status controladas.
+- Aceite eletrônico por link de uso único (assinatura simples, **não** ICP-Brasil), pagamentos por parcela e histórico de atividades.
+- Backend organizado em módulos por domínio (rotas, controllers, services e schemas Zod) e repositório com testes (Vitest, Playwright E2E), Docker e pipeline de CI no GitHub Actions.
+
+**Stack:** React 19 · TypeScript · Vite · Tailwind CSS 4 · Fastify · Prisma · PostgreSQL · Zod · Vitest · Playwright · Docker
+
+<a href="https://github.com/muryllodouglashsoares/law-contract-management">
+  <img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-12081F?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Ver código"/>
+</a>
+<a href="https://law-contract-management.pages.dev">
+  <img src="https://img.shields.io/badge/Abrir%20aplica%C3%A7%C3%A3o-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=12081F" alt="Abrir aplicação"/>
+</a>
+
+</td>
+<td width="40%" valign="top">
+
+<img src="https://github.com/muryllodouglashsoares/law-contract-management/raw/main/docs/screenshots/dashboard.webp" width="100%" alt="Dashboard do LexContract"/>
+<img src="https://github.com/muryllodouglashsoares/law-contract-management/raw/main/docs/screenshots/contrato-pagamentos.webp" width="100%" alt="Pagamentos de um contrato no LexContract"/>
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Decisões técnicas documentadas no repositório</strong></summary>
+<br>
+
+- **Modular monolith em vez de microserviços:** para o estágio do produto, vários serviços trariam custo operacional sem benefício real. Os módulos já têm fronteiras claras, o que facilita uma extração futura.
+- **RBAC com `requireRole()` nos `preHandler`s** em vez de uma tabela de permissões: com três papéis fixos, uma camada dinâmica adicionaria complexidade sem necessidade. Autenticação, autorização e validação são etapas separadas e sequenciais.
+- **Regras relacionais explícitas no Prisma** (`@@unique`, `@@index`): por exemplo, um CPF/CNPJ não se repete dentro do mesmo escritório, mas pode existir em escritórios diferentes.
+
+O repositório também documenta CI/CD, testes E2E e observabilidade na pasta `docs/`, e declara que não alega conformidade com a LGPD.
+
+</details>
+
+<br>
+
 ### IFConnect — rede social acadêmica
 
 <table>
@@ -115,13 +163,13 @@ Comunicação acadêmica costuma ficar fragmentada entre grupos de mensagem, mur
 **Stack:** JavaScript · HTML · CSS · Firebase Auth · Realtime Database
 **Status:** concluído
 
-[Código](https://github.com/muryllodouglashsoares/IFConnect) · [Estudo de caso no portfólio](https://portfolio-c1u.pages.dev/projects/ifconnect)
+[Código](https://github.com/muryllodouglashsoares/plataforma-comunicacao) · [Estudo de caso no portfólio](https://portfolio-c1u.pages.dev/projects/ifconnect)
 
 </td>
 <td width="40%" valign="top">
 
-<img src="https://github.com/muryllodouglashsoares/IFConnect/raw/main/screenshots/Captura%20de%20Tela%20(206).png" width="100%" alt="Feed do IFConnect"/>
-<img src="https://github.com/muryllodouglashsoares/IFConnect/raw/main/screenshots/Captura%20de%20Tela%20(212).png" width="100%" alt="Painel administrativo do IFConnect"/>
+<img src="https://github.com/muryllodouglashsoares/plataforma-comunicacao/raw/main/screenshots/Captura%20de%20Tela%20(206).png" width="100%" alt="Feed do IFConnect"/>
+<img src="https://github.com/muryllodouglashsoares/plataforma-comunicacao/raw/main/screenshots/Captura%20de%20Tela%20(212).png" width="100%" alt="Painel administrativo do IFConnect"/>
 
 </td>
 </tr>
@@ -171,13 +219,13 @@ Peça de portfólio que mostra a diferença entre uma landing page bonita e uma 
 
 **Usada nos projetos**
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,firebase,cloudflare,vitest,git,python&theme=dark&perline=11" alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Firebase, Cloudflare, Vitest, Git e Python"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,fastify,postgres,prisma,firebase,cloudflare,docker,vitest,git,python&theme=dark&perline=8" alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Node.js, Fastify, PostgreSQL, Prisma, Firebase, Cloudflare, Docker, Vitest, Git e Python"/>
 
-<sub>HTML · CSS · JavaScript · TypeScript · React · Tailwind CSS · TanStack Start · Firebase Auth · Cloud Firestore · Realtime Database · Vitest + Firebase Emulator · Zod · Make · Cloudflare · Git/GitHub · Python · LEGO Spike Prime</sub>
+<sub>HTML · CSS · JavaScript · TypeScript · React · Tailwind CSS · TanStack Start · Node.js · Fastify · Prisma · PostgreSQL · Firebase Auth · Cloud Firestore · Realtime Database · Vitest · Playwright · Firebase Emulator · Zod · Make · Docker · Cloudflare · Git/GitHub · GitHub Actions · Python · LEGO Spike Prime</sub>
 
 **Atualmente estudando**
 
-Estruturas de dados e algoritmos · Arquitetura de software · Programação competitiva · Backend e regras de autorização · Robótica autônoma e automação
+Estruturas de dados e algoritmos · Arquitetura de software · Automação e robótica autônoma
 
 <br>
 
@@ -186,19 +234,20 @@ Estruturas de dados e algoritmos · Arquitetura de software · Programação com
 Só o que já apareceu em código real nos projetos acima:
 
 - **Autorização no banco** — permissões por perfil em Firestore Security Rules, com testes (Tekidu).
-- **Qualidade** — testes das regras de segurança com Vitest e Firebase Emulator; validação de formulário em duas camadas (FORJA); code splitting por perfil (Tekidu).
+- **Autorização no backend** — papéis verificados em `preHandler`s do Fastify e isolamento de dados por escritório nos services (LexContract).
+- **Qualidade** — testes das regras de segurança com Vitest e Firebase Emulator; validação de formulário em duas camadas (FORJA); validação de requisições com Zod e testes E2E com Playwright no repositório (LexContract); code splitting por perfil (Tekidu).
 - **Organização** — camada de serviços por domínio, componentes reaproveitados entre telas e log de auditoria assíncrono para alterações sensíveis (Tekidu).
+- **Dados relacionais** — modelagem com Prisma e PostgreSQL, com restrições de unicidade e índices (LexContract).
 - **Credenciais fora do cliente** — e-mail de primeiro acesso enviado por Cloudflare Pages Functions (Tekidu).
-- **Integração e deploy** — formulários ligados a automações reais (Make → Google Sheets) e publicação em Cloudflare Pages e Workers, com Git e GitHub em todos os projetos.
+- **Integração e deploy** — formulários ligados a automações reais (Make → Google Sheets), publicação em Cloudflare Pages e Workers, Docker e pipeline de CI no GitHub Actions (LexContract), com Git e GitHub em todos os projetos.
 
 <br>
 
 ## Próximos passos
 
-- Aprofundar back-end e modelagem de dados além do Firebase, incluindo bancos relacionais.
-- Evoluir o Tekidu com mais recursos acadêmicos e melhor cobertura de testes.
-- Aplicar estruturas de dados e arquitetura de software em projetos de maior escala.
-- Ganhar experiência prática em automação e robótica autônoma.
+- Estruturas de dados e algoritmos, e arquitetura de software, para construir sistemas mais completos.
+- Automação e robótica autônoma.
+- Evoluir o Tekidu conforme o roadmap do repositório: CI/CD, testes de componentes de interface, monitoramento de erros e auditoria de acessibilidade.
 
 <br>
 
