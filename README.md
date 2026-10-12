@@ -72,18 +72,6 @@ Plataforma que substitui planilhas e sistemas dispersos por um único ambiente p
 </td>
 </tr>
 </table>
-
-**Arquitetura**
-
-```mermaid
-flowchart LR
-  UI["React + TypeScript<br/>4 experiências de UI"] --> S["Camada de serviços<br/>por domínio"]
-  S --> A["Firebase Auth"]
-  S --> F["Cloud Firestore"]
-  F --> R["Security Rules<br/>autorização por perfil"]
-  UI -.-> E["Pages Functions<br/>e-mail de primeiro acesso"]
-```
-
 <details>
 <summary><strong>Dois desafios técnicos que enfrentei</strong></summary>
 <br>
