@@ -131,24 +131,15 @@ Landing pages fictícias, com demonstração publicada e foco em interface respo
 
 **Usada nos projetos**
 
-<img src="https://img.shields.io/badge/JavaScript-12081F?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/TypeScript-12081F?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/React-12081F?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/HTML5-12081F?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-12081F?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3"/>
-<img src="https://img.shields.io/badge/Tailwind%20CSS-12081F?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS"/>
-<img src="https://img.shields.io/badge/Firebase-12081F?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase"/>
-<img src="https://img.shields.io/badge/Cloudflare-12081F?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare"/>
-<img src="https://img.shields.io/badge/Vitest-12081F?style=for-the-badge&logo=vitest&logoColor=6E9F18" alt="Vitest"/>
-<img src="https://img.shields.io/badge/Git-12081F?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"/>
-<img src="https://img.shields.io/badge/LEGO%20SPIKE%20Prime-12081F?style=for-the-badge&logo=lego&logoColor=E01A22" alt="LEGO SPIKE Prime"/>
+<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind,firebase,cloudflare,vitest,git&theme=dark&perline=10" alt="JavaScript, TypeScript, React, HTML5, CSS3, Tailwind CSS, Firebase, Cloudflare, Vitest e Git"/>
+
+<sub>JavaScript · TypeScript · React · HTML5 · CSS3 · Tailwind CSS · Firebase · Cloudflare · Vitest · Git · LEGO SPIKE Prime (robótica)</sub>
 
 **Estudando e aprofundando**
 
-<img src="https://img.shields.io/badge/Python-1A1025?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"/>
-<img src="https://img.shields.io/badge/Estruturas%20de%20Dados-1A1025?style=for-the-badge&logo=leetcode&logoColor=F1C21B" alt="Estruturas de Dados"/>
-<img src="https://img.shields.io/badge/Arquitetura%20de%20Software-1A1025?style=for-the-badge&logo=blueprint&logoColor=8B5CF6" alt="Arquitetura de Software"/>
-<img src="https://img.shields.io/badge/Rob%C3%B3tica%20Aut%C3%B4noma-1A1025?style=for-the-badge&logo=robotframework&logoColor=8B5CF6" alt="Robótica Autônoma"/>
+<img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python"/>
+
+<sub>Python · Estruturas de dados · Arquitetura de software · Robótica autônoma</sub>
 
 <br>
 
