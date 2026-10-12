@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
 
 <img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/hero.svg?v=2" width="100%" alt="Muryllo Douglas — Construindo software do zero para resolver problemas reais"/>
 
@@ -51,6 +51,7 @@ Plataforma que substitui planilhas e sistemas dispersos por um único ambiente p
 - PWA instalável, painel de acessibilidade, dark mode e navegação mobile dedicada.
 
 **Stack:** React 18 · TypeScript · Vite · Tailwind CSS · Framer Motion · React Router · Firebase Auth · Cloud Firestore · Cloudflare Pages Functions · Vitest
+
 **Status:** em desenvolvimento
 
 <a href="https://github.com/muryllodouglashsoares/Tekidu">
@@ -72,6 +73,7 @@ Plataforma que substitui planilhas e sistemas dispersos por um único ambiente p
 </td>
 </tr>
 </table>
+
 <details>
 <summary><strong>Dois desafios técnicos que enfrentei</strong></summary>
 <br>
@@ -149,6 +151,7 @@ Comunicação acadêmica costuma ficar fragmentada entre grupos de mensagem, mur
 - Feito em **JavaScript puro**, sem framework, integrado direto ao Firebase. Não há backend próprio: as permissões por cargo ficam no código do cliente (no Tekidu, a autorização é validada no banco).
 
 **Stack:** JavaScript · HTML · CSS · Firebase Auth · Realtime Database
+
 **Status:** concluído
 
 [Código](https://github.com/muryllodouglashsoares/plataforma-comunicacao) · [Estudo de caso no portfólio](https://portfolio-c1u.pages.dev/projects/ifconnect)
@@ -180,7 +183,7 @@ Peça de portfólio que mostra a diferença entre uma landing page bonita e uma 
 
 **Stack:** React 19 · TypeScript · TanStack Start · Tailwind CSS 4 · Motion · shadcn/ui · React Hook Form · Cloudflare Workers
 
-[Código](https://github.com/muryllodouglashsoares/savora-landing-page) · [Demonstração](https://savora-landing-page.muryllodouglash-soares.workers.dev/) · [Estudo de caso no portfólio](https://portfolio-c1u.pages.dev/projects/savora)
+[Código](https://github.com/muryllodouglashsoares/savora-landing-page) · [Demonstração](https://savora-landing-page.muryllodouglash-soares.workers.dev/) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/savora)
 
 </td>
 <td width="40%" valign="top">
@@ -207,7 +210,13 @@ Peça de portfólio que mostra a diferença entre uma landing page bonita e uma 
 
 **Usada nos projetos e no ambiente de desenvolvimento**
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,fastify,postgres,prisma,firebase,cloudflare,docker,vitest,git,python,windows,linux,arch&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Node.js, Fastify, PostgreSQL, Prisma, Firebase, Cloudflare, Docker, Vitest, Git, Python, Windows, Linux e Arch Linux"/>
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,fastify,postgres,prisma,firebase,cloudflare,docker,vitest,git,python,windows,linux,arch&theme=dark"
+    width="100%"
+    alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Node.js, Fastify, PostgreSQL, Prisma, Firebase, Cloudflare, Docker, Vitest, Git, Python, Windows, Linux e Arch Linux"
+  />
+</p>
 
 <sub>HTML · CSS · JavaScript · TypeScript · React · Tailwind CSS · TanStack Start · Node.js · Fastify · Prisma · PostgreSQL · Firebase Auth · Cloud Firestore · Realtime Database · Vitest · Playwright · Firebase Emulator · Zod · Make · Docker · Cloudflare · Git/GitHub · GitHub Actions · Python · Windows · Linux · Arch Linux · LEGO Spike Prime</sub>
 
@@ -244,6 +253,7 @@ Só o que já apareceu em código real nos projetos acima:
 ## Disponível para oportunidades
 
 **Buscando minha primeira oportunidade profissional em tecnologia**
+
 como **Estagiário** ou **Desenvolvedor Trainee** — Web / Software
 
 Estou sempre aberto a oportunidades de aprendizado e a experiências em que eu possa contribuir e continuar evoluindo como desenvolvedor.
