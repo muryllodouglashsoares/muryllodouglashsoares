@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
 
 <img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/hero.svg?v=2" width="100%" alt="Muryllo Douglas — Construindo software do zero para resolver problemas reais"/>
 
@@ -200,6 +200,8 @@ Peça de portfólio que mostra a diferença entre uma landing page bonita e uma 
 
 | Projeto | O que demonstra | Links |
 |---|---|---|
+| **Evidence Finder** *(em desenvolvimento)* | Aplicativo desktop para Windows, 100% local e offline, para pesquisar em capturas de tela, imagens, conversas em texto, TXT e PDFs. Importação com detecção de duplicatas por SHA-256, OCR local com Tesseract, busca lexical com SQLite FTS5, busca semântica local e exportação de evidências em PDF e pasta com `manifest.json`. Backend em Rust com testes automatizados e interface em React. O repositório declara que a validação em Windows real e o instalador ainda estão pendentes. Tauri 2 · Rust · React 19 · TypeScript · SQLite · Vitest. | [Código](https://github.com/muryllodouglashsoares/evidence-finder) |
+| **Woman Importance** | Jogo 2D *top-down* em GameMaker (GML) para um evento de Ciências e Tecnologia do IFPB Itaporanga: batalha de chefe em três fases, cutscenes, habilidades, níveis de dificuldade, conquistas e suporte a teclado, mouse e gamepad. | [Código](https://github.com/muryllodouglashsoares/gamer-make-project) |
 | **FORJA Training Studio** *(fictício)* | Landing page com formulário validado em duas camadas (cliente com Zod e servidor), campo honeypot anti-bot, integração Make → Google Sheets e SEO técnico (JSON-LD, Open Graph, sitemap). TanStack Start · React 19 · TypeScript · Tailwind CSS 4. | [Código](https://github.com/muryllodouglashsoares/gym-landing-page) · [Demo](https://gym-landing-page.muryllodouglash-soares.workers.dev/) · [Portfólio](https://portfolio-c1u.pages.dev/projects/forja) |
 | **OdontoPrime** *(fictício)* | Landing page renderizada via SSR a partir de um design de referência, com dados estruturados (`Dentist` e `FAQPage`) e formulário integrado a webhook, com modo demonstração. TanStack Start · React 19 · TypeScript. | [Código](https://github.com/muryllodouglashsoares/clinica-landing-page) · [Demo](https://clinica-landing-page.muryllodouglash-soares.workers.dev/) · [Portfólio](https://portfolio-c1u.pages.dev/projects/odontoprime) |
 | **Mini Olimpíada de Robótica** | Robô seguidor de linha em LEGO Spike Prime para a competição do IFPB, com duas abordagens comparadas: dois sensores de cor em blocos e um sensor em Python. O repositório traz fotos e vídeos do processo. | [Código](https://github.com/muryllodouglashsoares/mini-robotics-competition) · [Portfólio](https://portfolio-c1u.pages.dev/projects/mini-olimpiada-robotica) |
@@ -212,13 +214,13 @@ Peça de portfólio que mostra a diferença entre uma landing page bonita e uma 
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,fastify,postgres,prisma,firebase,cloudflare,docker,vitest,git,python,windows,linux,arch&theme=dark"
+    src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,threejs,nodejs,postgres,prisma,sqlite,firebase,rust,tauri,python,gamemakerstudio,docker,cloudflare,githubactions,vitest,git,github,vscode,windows,linux,arch&theme=dark&perline=14"
     width="100%"
-    alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Node.js, Fastify, PostgreSQL, Prisma, Firebase, Cloudflare, Docker, Vitest, Git, Python, Windows, Linux e Arch Linux"
+    alt="HTML, CSS, JavaScript, TypeScript, React, Vite, Tailwind CSS, Three.js, Node.js, PostgreSQL, Prisma, SQLite, Firebase, Rust, Tauri, Python, GameMaker, Docker, Cloudflare, GitHub Actions, Vitest, Git, GitHub, VS Code, Windows, Linux e Arch Linux"
   />
 </p>
 
-<sub>HTML · CSS · JavaScript · TypeScript · React · Tailwind CSS · TanStack Start · Node.js · Fastify · Prisma · PostgreSQL · Firebase Auth · Cloud Firestore · Realtime Database · Vitest · Playwright · Firebase Emulator · Zod · Make · Docker · Cloudflare · Git/GitHub · GitHub Actions · Python · Windows · Linux · Arch Linux · LEGO Spike Prime</sub>
+<sub>HTML · CSS · JavaScript · TypeScript · React · Vite · Tailwind CSS · TanStack Start · Three.js · React Three Fiber · Node.js · Fastify · Prisma · PostgreSQL · SQLite (FTS5) · Firebase Auth · Cloud Firestore · Realtime Database · Rust · Tauri · Tesseract (OCR) · Vitest · Playwright · Firebase Emulator · Zod · Make · Docker · Cloudflare · Git/GitHub · GitHub Actions · VS Code · Python · GameMaker (GML) · Windows · Linux · Arch Linux · LEGO Spike Prime</sub>
 
 **Atualmente estudando**
 
@@ -232,9 +234,10 @@ Só o que já apareceu em código real nos projetos acima:
 
 - **Autorização no banco** — permissões por perfil em Firestore Security Rules, com testes (Tekidu).
 - **Autorização no backend** — papéis verificados em `preHandler`s do Fastify e isolamento de dados por escritório nos services (LexContract).
-- **Qualidade** — testes das regras de segurança com Vitest e Firebase Emulator; validação de formulário em duas camadas (FORJA); validação de requisições com Zod e testes E2E com Playwright no repositório (LexContract); code splitting por perfil (Tekidu).
+- **Qualidade** — testes das regras de segurança com Vitest e Firebase Emulator; validação de formulário em duas camadas (FORJA); validação de requisições com Zod e testes E2E com Playwright no repositório (LexContract); code splitting por perfil (Tekidu); testes automatizados no núcleo em Rust e no frontend (Evidence Finder).
 - **Organização** — camada de serviços por domínio, componentes reaproveitados entre telas e log de auditoria assíncrono para alterações sensíveis (Tekidu).
 - **Dados relacionais** — modelagem com Prisma e PostgreSQL, com restrições de unicidade e índices (LexContract).
+- **Privacidade e integridade local** — processamento 100% offline, política de segurança de conteúdo (CSP) restritiva no Tauri e verificação de integridade dos arquivos por SHA-256 (Evidence Finder).
 - **Credenciais fora do cliente** — e-mail de primeiro acesso enviado por Cloudflare Pages Functions (Tekidu).
 - **Integração e deploy** — formulários ligados a automações reais (Make → Google Sheets), publicação em Cloudflare Pages e Workers, Docker e pipeline de CI no GitHub Actions (LexContract), com Git e GitHub em todos os projetos.
 
