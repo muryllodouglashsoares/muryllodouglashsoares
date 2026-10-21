@@ -214,9 +214,9 @@ Peça de portfólio que mostra a diferença entre uma landing page bonita e uma 
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,threejs,nodejs,fastify,postgres,prisma,sqlite,firebase,rust,tauri,python,gamemakerstudio,docker,cloudflare,githubactions,vitest,git,github,vscode,windows,linux,arch&theme=dark&perline=14"
+    src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,threejs,nodejs,postgres,prisma,sqlite,firebase,rust,tauri,python,gamemakerstudio,docker,cloudflare,githubactions,vitest,git,github,vscode,windows,linux,arch&theme=dark&perline=14"
     width="100%"
-    alt="HTML, CSS, JavaScript, TypeScript, React, Vite, Tailwind CSS, Three.js, Node.js, Fastify, PostgreSQL, Prisma, SQLite, Firebase, Rust, Tauri, Python, GameMaker, Docker, Cloudflare, GitHub Actions, Vitest, Git, GitHub, VS Code, Windows, Linux e Arch Linux"
+    alt="HTML, CSS, JavaScript, TypeScript, React, Vite, Tailwind CSS, Three.js, Node.js, PostgreSQL, Prisma, SQLite, Firebase, Rust, Tauri, Python, GameMaker, Docker, Cloudflare, GitHub Actions, Vitest, Git, GitHub, VS Code, Windows, Linux e Arch Linux"
   />
 </p>
 
