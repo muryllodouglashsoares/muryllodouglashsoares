@@ -1,272 +1,138 @@
-<div align="center">
+<p align="center">
+  <a href="https://portfolio-c1u.pages.dev/">
+    <img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/hero.svg?v=2" alt="Muryllo Douglas — Construindo software do zero para resolver problemas reais" width="100%">
+  </a>
+</p>
 
-<img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/hero.svg?v=2" width="100%" alt="Muryllo Douglas — Construindo software do zero para resolver problemas reais"/>
-
-<br>
-
-<a href="https://portfolio-c1u.pages.dev/" target="_blank">
-  <img src="https://img.shields.io/badge/Portf%C3%B3lio-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6" alt="Portfólio" />
-</a>
-<a href="https://linkedin.com/in/muryllodouglashsoares" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-12081F?style=for-the-badge&logo=linkedin&logoColor=8B5CF6" alt="LinkedIn" />
-</a>
-<a href="mailto:muryllodouglashsoares@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-12081F?style=for-the-badge&logo=gmail&logoColor=8B5CF6" alt="Email" />
-</a>
-
-</div>
-
-<br>
+<p align="center">
+  <a href="https://portfolio-c1u.pages.dev/"><img alt="Portfólio" src="https://img.shields.io/badge/Portf%C3%B3lio-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6"></a>
+  <a href="https://www.linkedin.com/in/muryllo-douglas-henrique-soares-7a8416416/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-12081F?style=for-the-badge&logo=linkedin&logoColor=8B5CF6"></a>
+  <a href="mailto:muryllodouglashsoares@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/Email-12081F?style=for-the-badge&logo=gmail&logoColor=8B5CF6"></a>
+</p>
 
 ## Sobre mim
 
-Estudante de Informática (Ensino Médio Integrado ao Técnico) no **IFPB — Campus Itaporanga** e desenvolvedor em formação. Construo projetos reais porque acredito que a melhor forma de aprender é fazendo.
+Estudo Informática (Ensino Médio Integrado ao Técnico) no **IFPB — Campus Itaporanga** e sou desenvolvedor em formação. Aprendo construindo: cada projeto abaixo parte de um problema concreto, tem código disponível e declara o que ainda falta.
 
-Meu foco é desenvolvimento web, com interesse em automação, robótica, arquitetura de software e estruturas de dados. Não estou tentando parecer alguém com anos de experiência: mostro o que consigo construir agora e evoluo rápido.
+Meu foco é desenvolvimento web e engenharia de software, com interesse em aplicações desktop, segurança, arquitetura de software, automação e robótica. Não me apresento como alguém com anos de experiência; mostro o que consigo construir agora.
 
-**Busco minha primeira oportunidade como estagiário ou desenvolvedor trainee.**
-
-**Minha evolução, projeto a projeto:**
-
-```
-Fundamentos  →  Exploração  →  Construção  →  Publicação  →  Evolução
-```
-
-<br>
+**Busco minha primeira oportunidade como estagiário ou desenvolvedor trainee (web / software).**
 
 ## Projetos em destaque
 
-### Tekidu — gestão e acompanhamento acadêmico
-
-<table>
-<tr>
-<td width="60%" valign="top">
-
-Plataforma que substitui planilhas e sistemas dispersos por um único ambiente para notas, frequência, boletim, turmas e comunicados, com **quatro experiências** separadas: administrador, professor, estudante e responsável (somente leitura).
-
-- Autenticação com Firebase (login, primeiro acesso com e-mail transacional e recuperação de senha).
-- Autorização por perfil nas **Firestore Security Rules**, não apenas escondida na interface, com suíte própria de testes (Vitest + Firebase Emulator).
-- Notas, médias, boletim, frequência por sessão, relatórios e justificativas de falta com documento comprobatório.
-- Exportação de boletim em PDF e de frequência e relatórios em Excel/PDF.
-- PWA instalável, painel de acessibilidade, dark mode e navegação mobile dedicada.
-
-**Stack:** React 18 · TypeScript · Vite · Tailwind CSS · Framer Motion · React Router · Firebase Auth · Cloud Firestore · Cloudflare Pages Functions · Vitest
-
-**Status:** em desenvolvimento
-
-<a href="https://github.com/muryllodouglashsoares/Tekidu">
-  <img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-12081F?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Ver código"/>
-</a>
-<a href="https://tekidu.pages.dev/">
-  <img src="https://img.shields.io/badge/Abrir%20aplica%C3%A7%C3%A3o-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=12081F" alt="Abrir aplicação"/>
-</a>
-<a href="https://portfolio-c1u.pages.dev/projects/tekidu">
-  <img src="https://img.shields.io/badge/Estudo%20de%20caso-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6" alt="Estudo de caso no portfólio"/>
-</a>
-
-</td>
-<td width="40%" valign="top">
-
-<img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/docs/screenshots/landing-page.png" width="100%" alt="Landing page do Tekidu"/>
-<img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/docs/screenshots/dashboard.png" width="100%" alt="Dashboard do Tekidu"/>
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><strong>Dois desafios técnicos que enfrentei</strong></summary>
-<br>
-
-**1. Esconder botões não protege os dados.** Um usuário autenticado ainda poderia ler ou escrever dados de outro perfil direto na API do Firestore. Revisei o que cada perfil precisa ler e escrever e passei a autorização para as Security Rules, testadas com Vitest, Firebase Emulator e `@firebase/rules-unit-testing`, com cenários de acesso permitido e negado.
-
-**2. Um estudante não deveria baixar o código do painel administrativo.** Mapeei as rotas por perfil e passei a carregar a maioria das páginas sob demanda com `React.lazy` e `Suspense`, agrupadas por perfil.
-
-**O que ainda falta (conforme o roadmap do repositório):** pipeline de CI/CD, testes de componentes de interface, monitoramento de erros em produção e auditoria de acessibilidade.
-
-</details>
-
-<br>
-
 ### LexContract — gestão de contratos jurídicos (SaaS B2B)
 
-<table>
-<tr>
-<td width="60%" valign="top">
+Pequenos escritórios de advocacia costumam acompanhar contratos, modelos e cobranças em planilhas, e-mail e papel, sem rastreabilidade. O LexContract centraliza clientes, contratos, documentos, parcelas e histórico de auditoria, com os dados de cada escritório isolados.
 
-Pequenos escritórios de advocacia costumam gerenciar clientes, contratos, modelos e cobranças em planilhas, e-mail e papel, sem rastreabilidade. O LexContract centraliza esse fluxo: cada escritório cadastra clientes, gera contratos a partir de modelos reutilizáveis e acompanha o ciclo do contrato, com documentos, parcelas de pagamento e histórico de auditoria.
+- API em **Fastify + TypeScript** com **PostgreSQL** via **Prisma**, organizada em módulos por domínio (rotas, controllers, services e schemas Zod).
+- Autenticação com JWT; permissões por papel (`ADMIN`, `LAWYER`, `ASSISTANT`) verificadas **no backend**; isolamento multi-tenant, com os services filtrando por `officeId`.
+- Contratos gerados a partir de modelos com variáveis, versionamento do conteúdo e transições de status controladas; aceite eletrônico por link de uso único (assinatura simples, **não** ICP-Brasil).
+- Qualidade e operação: testes com Vitest, 4 fluxos E2E com Playwright, Docker e CI no GitHub Actions, com deploy só depois de todos os testes passarem.
+- Decisões documentadas: *modular monolith* em vez de microserviços e RBAC com `requireRole()` em vez de tabela de permissões, por serem suficientes para o estágio do produto. O repositório não alega conformidade com a LGPD.
 
-- API própria em **Fastify + TypeScript**, com dados relacionais em **PostgreSQL** via **Prisma**.
-- Autenticação com **JWT** e permissões por papel (`ADMIN`, `LAWYER`, `ASSISTANT`) verificadas **no backend**, não só na interface.
-- **Multi-tenant por escritório**: os services filtram os dados pelo `officeId` do usuário autenticado.
-- Contratos gerados a partir de modelos com variáveis, versionamento do conteúdo e transições de status controladas.
-- Aceite eletrônico por link de uso único (assinatura simples, **não** ICP-Brasil), pagamentos por parcela e histórico de atividades.
-- Backend organizado em módulos por domínio (rotas, controllers, services e schemas Zod) e repositório com testes (Vitest, Playwright E2E), Docker e pipeline de CI no GitHub Actions.
+**Stack:** React 19 · TypeScript · Vite · Tailwind CSS 4 · Fastify · Prisma · PostgreSQL · Zod · Vitest · Playwright · Docker<br>
+**Estado:** demo publicada (frontend no Cloudflare Pages, API no Render).<br>
+[Código](https://github.com/muryllodouglashsoares/law-contract-management) · [Demo](https://law-contract-management.pages.dev) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/lexcontract)
 
-**Stack:** React 19 · TypeScript · Vite · Tailwind CSS 4 · Fastify · Prisma · PostgreSQL · Zod · Vitest · Playwright · Docker
+<p>
+  <img src="https://github.com/muryllodouglashsoares/law-contract-management/raw/main/docs/screenshots/dashboard.webp" alt="Dashboard do LexContract" width="49%">
+  <img src="https://github.com/muryllodouglashsoares/law-contract-management/raw/main/docs/screenshots/contrato-pagamentos.webp" alt="Pagamentos de um contrato no LexContract" width="49%">
+</p>
 
-<a href="https://github.com/muryllodouglashsoares/law-contract-management">
-  <img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-12081F?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Ver código"/>
-</a>
-<a href="https://law-contract-management.pages.dev">
-  <img src="https://img.shields.io/badge/Abrir%20aplica%C3%A7%C3%A3o-8B5CF6?style=for-the-badge&logo=cloudflare&logoColor=12081F" alt="Abrir aplicação"/>
-</a>
+### Tekidu — gestão e acompanhamento acadêmico
 
-</td>
-<td width="40%" valign="top">
+Notas, frequência, boletim, turmas e comunicados costumam ficar em planilhas e sistemas separados. O Tekidu reúne tudo em um ambiente com experiências distintas para administrador, professor e estudante.
 
-<img src="https://github.com/muryllodouglashsoares/law-contract-management/raw/main/docs/screenshots/dashboard.webp" width="100%" alt="Dashboard do LexContract"/>
-<img src="https://github.com/muryllodouglashsoares/law-contract-management/raw/main/docs/screenshots/contrato-pagamentos.webp" width="100%" alt="Pagamentos de um contrato no LexContract"/>
+- Autenticação com Firebase (login, primeiro acesso com e-mail transacional e recuperação de senha).
+- **Autorização nas Firestore Security Rules**, não apenas escondida na interface, com suíte própria de testes (Vitest + Firebase Emulator) cobrindo acessos permitidos e negados.
+- Notas, médias, boletim, frequência por sessão, relatórios, avisos e calendário acadêmico.
+- Páginas carregadas sob demanda por perfil (`React.lazy`), para que um estudante não baixe o código do painel administrativo, e log de auditoria assíncrono para alterações sensíveis.
 
-</td>
-</tr>
-</table>
+**Stack:** React 18 · TypeScript · Vite · Tailwind CSS · Firebase Auth · Cloud Firestore · Cloudflare Pages Functions · Vitest<br>
+**Estado:** em desenvolvimento. Pendências do roadmap do repositório: CI/CD, testes de componentes, monitoramento de erros e melhorias de acessibilidade.<br>
+[Código](https://github.com/muryllodouglashsoares/Tekidu) · [Aplicação](https://tekidu.pages.dev/) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/tekidu)
 
-<details>
-<summary><strong>Decisões técnicas documentadas no repositório</strong></summary>
-<br>
+<p>
+  <img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/docs/screenshots/landing-page.png" alt="Landing page do Tekidu" width="49%">
+  <img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/docs/screenshots/dashboard.png" alt="Dashboard do Tekidu" width="49%">
+</p>
 
-- **Modular monolith em vez de microserviços:** para o estágio do produto, vários serviços trariam custo operacional sem benefício real. Os módulos já têm fronteiras claras, o que facilita uma extração futura.
-- **RBAC com `requireRole()` nos `preHandler`s** em vez de uma tabela de permissões: com três papéis fixos, uma camada dinâmica adicionaria complexidade sem necessidade. Autenticação, autorização e validação são etapas separadas e sequenciais.
-- **Regras relacionais explícitas no Prisma** (`@@unique`, `@@index`): por exemplo, um CPF/CNPJ não se repete dentro do mesmo escritório, mas pode existir em escritórios diferentes.
+### Evidence Finder — pesquisa local em evidências digitais (desktop)
 
-O repositório também documenta CI/CD, testes E2E e observabilidade na pasta `docs/`, e declara que não alega conformidade com a LGPD.
+Encontrar uma informação em muitas capturas de tela, PDFs e conversas exige abrir arquivo por arquivo, e fica difícil provar de onde veio cada trecho. O Evidence Finder organiza os arquivos em projetos independentes, pesquisa o conteúdo **localmente** e exporta os trechos escolhidos com a fonte e o hash.
 
-</details>
+- Importação de PNG, JPEG, PDF, TXT e texto copiado, com detecção de duplicatas por SHA-256 e **OCR local** (Tesseract, dependência externa).
+- Três modos de pesquisa: exata (SQLite FTS5), por significado (embeddings locais) e híbrida.
+- Exportação em PDF + `manifest.json` + cópias das fontes com SHA-256 verificado. O repositório explica que o hash não prova autenticidade nem cadeia de custódia.
+- Privacidade: sem cliente de rede nem telemetria no código (testes com rede bloqueada em Linux), permissões mínimas do Tauri, CSP restritiva e caminhos escolhidos em diálogos nativos, nunca enviados pela interface.
+- Testes registrados no repositório: 82 de frontend e 258 em Rust, rodados em Linux.
 
-<br>
+**Stack:** Tauri 2 · Rust · React 19 · TypeScript · SQLite · Vitest<br>
+**Estado:** v0.1.0, em desenvolvimento. Ainda **pendentes**: validação em Windows real, instalador (não há release publicada), testes com o modelo semântico real e criptografia do armazenamento local.<br>
+[Código](https://github.com/muryllodouglashsoares/evidence-finder) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/evidence-finder)
 
-### IFConnect — rede social acadêmica
+<p>
+  <img src="https://github.com/muryllodouglashsoares/evidence-finder/raw/main/docs/screenshots/Dashboard.png" alt="Tela de projetos do Evidence Finder" width="49%">
+  <img src="https://github.com/muryllodouglashsoares/evidence-finder/raw/main/docs/screenshots/Tela_Pesquisa.png" alt="Tela de pesquisa do Evidence Finder" width="49%">
+</p>
 
-<table>
-<tr>
-<td width="60%" valign="top">
+### GitFlow Desktop — interface gráfica para operar repositórios Git (nome provisório)
 
-Comunicação acadêmica costuma ficar fragmentada entre grupos de mensagem, murais e avisos soltos. O IFConnect reúne feed social, chat em tempo real e painel administrativo, com permissões distintas para aluno, professor e administrador.
+Aplicativo desktop para operar repositórios Git locais sem digitar comandos, com foco em mostrar exatamente o que cada operação vai fazer antes de executá-la.
 
-- Cadastro e login por e-mail/senha e Google, com verificação de e-mail e recuperação de senha.
-- Feed com curtidas, upvotes e comentários, seguidores e feed personalizado.
-- Chat privado e em grupo em tempo real, notificações, badges e conquistas.
-- Cargos com permissões distintas e painel de moderação.
-- Feito em **JavaScript puro**, sem framework, integrado direto ao Firebase. Não há backend próprio: as permissões por cargo ficam no código do cliente (no Tekidu, a autorização é validada no banco).
+- **Fase 1:** status, arquivos alterados e diffs. **Fase 2:** criar e trocar branches e criar commits selecionando explicitamente os arquivos. **Fase 3:** diagnóstico de sincronização e `fetch`, `pull` e `push` com confirmação do destino.
+- O commit usa `git commit --only` com os arquivos marcados, nunca `git add .`; a revisão gera uma impressão digital do estado e o commit é recusado se algo mudar antes da confirmação.
+- Segurança: o Git é executado sem shell, com caminhos validados e interpretados literalmente; o app nunca usa `--force` e não armazena credenciais.
+- A lógica de Git fica em um crate Rust separado do Tauri, testado com Git real em repositórios temporários e remotos locais.
 
-**Stack:** JavaScript · HTML · CSS · Firebase Auth · Realtime Database
+**Stack:** Tauri · Rust · React · TypeScript · Tailwind CSS · Vitest<br>
+**Estado:** em desenvolvimento, sem instalador. O repositório lista como próximas etapas: merge manual, importação de ZIP, resolução de conflitos e pull requests.<br>
+[Código](https://github.com/muryllodouglashsoares/gitflow)
 
-**Status:** concluído
+## Mais projetos
 
-[Código](https://github.com/muryllodouglashsoares/plataforma-comunicacao) · [Estudo de caso no portfólio](https://portfolio-c1u.pages.dev/projects/ifconnect)
-
-</td>
-<td width="40%" valign="top">
-
-<img src="https://github.com/muryllodouglashsoares/plataforma-comunicacao/raw/main/screenshots/Captura%20de%20Tela%20(206).png" width="100%" alt="Feed do IFConnect"/>
-<img src="https://github.com/muryllodouglashsoares/plataforma-comunicacao/raw/main/screenshots/Captura%20de%20Tela%20(212).png" width="100%" alt="Painel administrativo do IFConnect"/>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-### Savora — landing page com reservas integradas
-
-<table>
-<tr>
-<td width="60%" valign="top">
-
-Peça de portfólio que mostra a diferença entre uma landing page bonita e uma entrega completa: animação autoral na hero e um formulário que realmente termina em algum lugar. O restaurante e seus dados são **fictícios**.
-
-- Hero com a montagem animada de um prato, feita só com `transform` e `opacity` e com versão estática para `prefers-reduced-motion`.
-- Cardápio digital por categoria, galeria, avaliações, FAQ e mapa de localização.
-- Reservas de ponta a ponta: React Hook Form → server function → webhook do Make → Google Sheets → relatório em PDF.
-- Iniciado no Lovable e evoluído manualmente, incluindo a limpeza do scaffold de UI.
-
-**Stack:** React 19 · TypeScript · TanStack Start · Tailwind CSS 4 · Motion · shadcn/ui · React Hook Form · Cloudflare Workers
-
-[Código](https://github.com/muryllodouglashsoares/savora-landing-page) · [Demonstração](https://savora-landing-page.muryllodouglash-soares.workers.dev/) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/savora)
-
-</td>
-<td width="40%" valign="top">
-
-<img src="https://github.com/muryllodouglashsoares/savora-landing-page/raw/main/screenshots/Pagina_principal.png" width="100%" alt="Página principal do Savora"/>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## Outros projetos
-
-| Projeto | O que demonstra | Links |
-|---|---|---|
-| **Evidence Finder** *(em desenvolvimento)* | Aplicativo desktop para Windows, 100% local e offline, para pesquisar em capturas de tela, imagens, conversas em texto, TXT e PDFs. Importação com detecção de duplicatas por SHA-256, OCR local com Tesseract, busca lexical com SQLite FTS5, busca semântica local e exportação de evidências em PDF e pasta com `manifest.json`. Backend em Rust com testes automatizados e interface em React. O repositório declara que a validação em Windows real e o instalador ainda estão pendentes. Tauri 2 · Rust · React 19 · TypeScript · SQLite · Vitest. | [Código](https://github.com/muryllodouglashsoares/evidence-finder) |
-| **Woman Importance** | Jogo 2D *top-down* em GameMaker (GML) para um evento de Ciências e Tecnologia do IFPB Itaporanga: batalha de chefe em três fases, cutscenes, habilidades, níveis de dificuldade, conquistas e suporte a teclado, mouse e gamepad. | [Código](https://github.com/muryllodouglashsoares/gamer-make-project) |
-| **FORJA Training Studio** *(fictício)* | Landing page com formulário validado em duas camadas (cliente com Zod e servidor), campo honeypot anti-bot, integração Make → Google Sheets e SEO técnico (JSON-LD, Open Graph, sitemap). TanStack Start · React 19 · TypeScript · Tailwind CSS 4. | [Código](https://github.com/muryllodouglashsoares/gym-landing-page) · [Demo](https://gym-landing-page.muryllodouglash-soares.workers.dev/) · [Portfólio](https://portfolio-c1u.pages.dev/projects/forja) |
-| **OdontoPrime** *(fictício)* | Landing page renderizada via SSR a partir de um design de referência, com dados estruturados (`Dentist` e `FAQPage`) e formulário integrado a webhook, com modo demonstração. TanStack Start · React 19 · TypeScript. | [Código](https://github.com/muryllodouglashsoares/clinica-landing-page) · [Demo](https://clinica-landing-page.muryllodouglash-soares.workers.dev/) · [Portfólio](https://portfolio-c1u.pages.dev/projects/odontoprime) |
-| **Mini Olimpíada de Robótica** | Robô seguidor de linha em LEGO Spike Prime para a competição do IFPB, com duas abordagens comparadas: dois sensores de cor em blocos e um sensor em Python. O repositório traz fotos e vídeos do processo. | [Código](https://github.com/muryllodouglashsoares/mini-robotics-competition) · [Portfólio](https://portfolio-c1u.pages.dev/projects/mini-olimpiada-robotica) |
-
-<br>
+- **IFConnect** — rede social acadêmica (feed, chat em tempo real, badges, moderação e painel administrativo) em JavaScript puro, com Firebase Auth e Realtime Database. Não tem backend próprio: as permissões por cargo ficam no código do cliente (no Tekidu, a autorização é validada no banco). [Código](https://github.com/muryllodouglashsoares/IFConnect) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/ifconnect)
+- **Landing pages de portfólio** (negócios, equipes e depoimentos **fictícios**) com TanStack Start, SSR, SEO técnico (JSON-LD, Open Graph, sitemap) e formulários integrados a Make → Google Sheets:
+  - [Savora](https://github.com/muryllodouglashsoares/savora-landing-page) (restaurante, hero animada e reservas) · [demo](https://savora-landing-page.muryllodouglash-soares.workers.dev/)
+  - [FORJA Training Studio](https://github.com/muryllodouglashsoares/gym-landing-page) (validação no cliente e no servidor, honeypot anti-bot) · [demo](https://gym-landing-page.muryllodouglash-soares.workers.dev/)
+  - [OdontoPrime](https://github.com/muryllodouglashsoares/clinica-landing-page) (SSR a partir de um design de referência) · [demo](https://clinica-landing-page.muryllodouglash-soares.workers.dev/)
+- **Mini Olimpíada de Robótica** — robô seguidor de linha em LEGO Spike Prime, com duas abordagens comparadas: dois sensores em blocos e um sensor em Python. [Código](https://github.com/muryllodouglashsoares/mini-robotics-competition)
+- **Woman Importance** — jogo 2D *top-down* em GameMaker (GML) com batalha de chefe em três fases, feito para um evento de Ciências e Tecnologia do IFPB. [Código](https://github.com/muryllodouglashsoares/gamer-make-project)
 
 ## Stack
 
-**Usada nos projetos e no ambiente de desenvolvimento**
+Somente o que aparece em código dos projetos acima.
 
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,threejs,nodejs,postgres,prisma,sqlite,firebase,rust,tauri,python,gamemakerstudio,docker,cloudflare,githubactions,vitest,git,github,vscode,windows,linux,arch&theme=dark&perline=14"
-    width="100%"
-    alt="HTML, CSS, JavaScript, TypeScript, React, Vite, Tailwind CSS, Three.js, Node.js, PostgreSQL, Prisma, SQLite, Firebase, Rust, Tauri, Python, GameMaker, Docker, Cloudflare, GitHub Actions, Vitest, Git, GitHub, VS Code, Windows, Linux e Arch Linux"
-  />
-</p>
+| Categoria | Tecnologias (projeto onde usei) |
+| --- | --- |
+| Linguagens | TypeScript · JavaScript · Rust · Python (robótica) · GML (Woman Importance) · HTML/CSS |
+| Frontend | React · Vite · Tailwind CSS · TanStack Start (landing pages) · Framer Motion (Tekidu) |
+| Backend e dados | Node.js + Fastify, PostgreSQL + Prisma, Zod (LexContract) · Firebase Auth, Firestore e Realtime Database (Tekidu, IFConnect) · SQLite FTS5 (Evidence Finder) |
+| Desktop | Tauri 2 com Rust + React (Evidence Finder, GitFlow Desktop) |
+| Testes e qualidade | Vitest · Playwright (LexContract) · `cargo test` · Firebase Emulator (Tekidu) · ESLint |
+| DevOps | Docker e GitHub Actions (LexContract) · Cloudflare Pages/Workers · Render · Make |
+| Ambiente | Git · GitHub · VS Code · Windows · Linux |
 
-<sub>HTML · CSS · JavaScript · TypeScript · React · Vite · Tailwind CSS · TanStack Start · Three.js · React Three Fiber · Node.js · Fastify · Prisma · PostgreSQL · SQLite (FTS5) · Firebase Auth · Cloud Firestore · Realtime Database · Rust · Tauri · Tesseract (OCR) · Vitest · Playwright · Firebase Emulator · Zod · Make · Docker · Cloudflare · Git/GitHub · GitHub Actions · VS Code · Python · GameMaker (GML) · Windows · Linux · Arch Linux · LEGO Spike Prime</sub>
-
-**Atualmente estudando**
-
-Estruturas de dados e algoritmos · Arquitetura de software · Automação e robótica autônoma
-
-<br>
+**Estudando agora:** estruturas de dados e algoritmos · arquitetura de software · automação e robótica autônoma.
 
 ## Práticas de engenharia
 
-Só o que já apareceu em código real nos projetos acima:
-
-- **Autorização no banco** — permissões por perfil em Firestore Security Rules, com testes (Tekidu).
-- **Autorização no backend** — papéis verificados em `preHandler`s do Fastify e isolamento de dados por escritório nos services (LexContract).
-- **Qualidade** — testes das regras de segurança com Vitest e Firebase Emulator; validação de formulário em duas camadas (FORJA); validação de requisições com Zod e testes E2E com Playwright no repositório (LexContract); code splitting por perfil (Tekidu); testes automatizados no núcleo em Rust e no frontend (Evidence Finder).
-- **Organização** — camada de serviços por domínio, componentes reaproveitados entre telas e log de auditoria assíncrono para alterações sensíveis (Tekidu).
-- **Dados relacionais** — modelagem com Prisma e PostgreSQL, com restrições de unicidade e índices (LexContract).
-- **Privacidade e integridade local** — processamento 100% offline, política de segurança de conteúdo (CSP) restritiva no Tauri e verificação de integridade dos arquivos por SHA-256 (Evidence Finder).
-- **Credenciais fora do cliente** — e-mail de primeiro acesso enviado por Cloudflare Pages Functions (Tekidu).
-- **Integração e deploy** — formulários ligados a automações reais (Make → Google Sheets), publicação em Cloudflare Pages e Workers, Docker e pipeline de CI no GitHub Actions (LexContract), com Git e GitHub em todos os projetos.
-
-<br>
-
-## Próximos passos
-
-- Estruturas de dados e algoritmos, e arquitetura de software, para construir sistemas mais completos.
-- Automação e robótica autônoma.
-- Evoluir o Tekidu conforme o roadmap do repositório: CI/CD, testes de componentes de interface, monitoramento de erros e auditoria de acessibilidade.
-
-<br>
-
-<div align="center">
+| Prática | Onde aparece |
+| --- | --- |
+| Autorização no backend e isolamento de dados por escritório | LexContract |
+| Autorização no banco (Security Rules) com testes de acesso permitido e negado | Tekidu |
+| Validação de entradas no servidor | LexContract (Zod), FORJA, GitFlow Desktop |
+| Testes automatizados (unidade, integração e E2E) | LexContract, Tekidu, Evidence Finder, GitFlow Desktop |
+| CI/CD com deploy condicionado aos testes | LexContract |
+| Privacidade e integridade local (offline, SHA-256, CSP) | Evidence Finder |
+| Limitações e pendências documentadas | Evidence Finder, LexContract, Tekidu |
 
 ## Disponível para oportunidades
 
-**Buscando minha primeira oportunidade profissional em tecnologia**
+**Buscando minha primeira oportunidade profissional em tecnologia** como **estagiário** ou **desenvolvedor trainee** — web / software.
 
-como **Estagiário** ou **Desenvolvedor Trainee** — Web / Software
+[Portfólio](https://portfolio-c1u.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/muryllo-douglas-henrique-soares-7a8416416/) · [E-mail](mailto:muryllodouglashsoares@gmail.com)
 
-Estou sempre aberto a oportunidades de aprendizado e a experiências em que eu possa contribuir e continuar evoluindo como desenvolvedor.
-
-<a href="https://portfolio-c1u.pages.dev/">Portfólio</a> ·
-<a href="https://linkedin.com/in/muryllodouglashsoares">LinkedIn</a> ·
-<a href="mailto:muryllodouglashsoares@gmail.com">E-mail</a>
-
-<br><br>
-
-<img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/footer_wave.svg" width="100%" alt=""/>
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/footer_wave.svg" alt="" width="100%">
+</p>
