@@ -101,7 +101,11 @@ Aplicativo desktop para operar repositórios Git locais sem digitar comandos, co
 
 ## Stack
 
-Somente o que aparece em código dos projetos acima.
+Somente o que aparece em código dos projetos acima. As sete mais frequentes:
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,react,tailwind,vite,vitest,cloudflare,rust&theme=dark&perline=7" alt="TypeScript, React, Tailwind CSS, Vite, Vitest, Cloudflare e Rust">
+</p>
 
 | Categoria | Tecnologias (projeto onde usei) |
 | --- | --- |
