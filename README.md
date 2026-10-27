@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://portfolio-c1u.pages.dev/"><img alt="Portfólio" src="https://img.shields.io/badge/Portf%C3%B3lio-12081F?style=for-the-badge&logo=googlechrome&logoColor=8B5CF6"></a>
   <a href="https://www.linkedin.com/in/muryllo-douglas-henrique-soares-7a8416416/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-12081F?style=for-the-badge&logo=linkedin&logoColor=8B5CF6"></a>
-  <a href="mailto:muryllodouglashsoares@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/Email-12081F?style=for-the-badge&logo=gmail&logoColor=8B5CF6"></a>
+  <a href="mailto:muryllodouglash.soares@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/Email-12081F?style=for-the-badge&logo=gmail&logoColor=8B5CF6"></a>
 </p>
 
 ## Sobre mim
@@ -25,7 +25,7 @@ Meu foco é desenvolvimento web e engenharia de software, com interesse em aplic
 Pequenos escritórios de advocacia costumam acompanhar contratos, modelos e cobranças em planilhas, e-mail e papel, sem rastreabilidade. O LexContract centraliza clientes, contratos, documentos, parcelas e histórico de auditoria, com os dados de cada escritório isolados.
 
 - API em **Fastify + TypeScript** com **PostgreSQL** via **Prisma**, organizada em módulos por domínio (rotas, controllers, services e schemas Zod).
-- Autenticação com JWT; permissões por papel (`ADMIN`, `LAWYER`, `ASSISTANT`) verificadas **no backend**; isolamento multi-tenant, com os services filtrando por `officeId`.
+- Autenticação com JWT e **2FA (TOTP) opcional** para `ADMIN` e `LAWYER`; permissões por papel (`ADMIN`, `LAWYER`, `ASSISTANT`) verificadas **no backend**; isolamento multi-tenant, com os services filtrando por `officeId`.
 - Contratos gerados a partir de modelos com variáveis, versionamento do conteúdo e transições de status controladas; aceite eletrônico por link de uso único (assinatura simples, **não** ICP-Brasil).
 - Qualidade e operação: testes com Vitest, 4 fluxos E2E com Playwright, Docker e CI no GitHub Actions, com deploy só depois de todos os testes passarem.
 - Decisões documentadas: *modular monolith* em vez de microserviços e RBAC com `requireRole()` em vez de tabela de permissões, por serem suficientes para o estágio do produto. O repositório não alega conformidade com a LGPD.
@@ -41,15 +41,17 @@ Pequenos escritórios de advocacia costumam acompanhar contratos, modelos e cobr
 
 ### Tekidu — gestão e acompanhamento acadêmico
 
-Notas, frequência, boletim, turmas e comunicados costumam ficar em planilhas e sistemas separados. O Tekidu reúne tudo em um ambiente com experiências distintas para administrador, professor e estudante.
+Notas, frequência, boletim, turmas e comunicados costumam ficar em planilhas e sistemas separados. O Tekidu reúne tudo em um ambiente com quatro experiências distintas: administrador, professor, estudante e responsável (somente leitura).
 
 - Autenticação com Firebase (login, primeiro acesso com e-mail transacional e recuperação de senha).
 - **Autorização nas Firestore Security Rules**, não apenas escondida na interface, com suíte própria de testes (Vitest + Firebase Emulator) cobrindo acessos permitidos e negados.
-- Notas, médias, boletim, frequência por sessão, relatórios, avisos e calendário acadêmico.
+- Notas, médias, boletim, frequência por sessão, justificativas de falta com documento comprobatório, relatórios, avisos e calendário acadêmico.
+- Exportação do boletim em PDF e de frequência e relatórios em Excel/PDF.
+- **PWA instalável**, painel de acessibilidade, modo escuro e navegação mobile dedicada.
 - Páginas carregadas sob demanda por perfil (`React.lazy`), para que um estudante não baixe o código do painel administrativo, e log de auditoria assíncrono para alterações sensíveis.
 
 **Stack:** React 18 · TypeScript · Vite · Tailwind CSS · Firebase Auth · Cloud Firestore · Cloudflare Pages Functions · Vitest<br>
-**Estado:** em desenvolvimento. Pendências do roadmap do repositório: CI/CD, testes de componentes, monitoramento de erros e melhorias de acessibilidade.<br>
+**Estado:** em desenvolvimento. Ainda pendentes: pipeline de CI/CD, testes de componentes de interface, monitoramento de erros em produção e auditoria de acessibilidade.<br>
 [Código](https://github.com/muryllodouglashsoares/Tekidu) · [Aplicação](https://tekidu.pages.dev/) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/tekidu)
 
 <p>
@@ -135,7 +137,7 @@ Somente o que aparece em código dos projetos acima. As sete mais frequentes:
 
 **Buscando minha primeira oportunidade profissional em tecnologia** como **estagiário** ou **desenvolvedor trainee** — web / software.
 
-[Portfólio](https://portfolio-c1u.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/muryllo-douglas-henrique-soares-7a8416416/) · [E-mail](mailto:muryllodouglashsoares@gmail.com)
+[Portfólio](https://portfolio-c1u.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/muryllo-douglas-henrique-soares-7a8416416/) · [E-mail](mailto:muryllodouglash.soares@gmail.com)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/muryllodouglashsoares/muryllodouglashsoares/main/footer_wave.svg" alt="" width="100%">
