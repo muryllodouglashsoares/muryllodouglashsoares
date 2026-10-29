@@ -44,7 +44,7 @@ Notas, frequência, boletim e comunicados para administrador, professor, estudan
 
 ### [Evidence Finder](https://github.com/muryllodouglashsoares/evidence-finder) — pesquisa local em evidências digitais
 
-App desktop que pesquisa prints, PDFs e conversas **100% offline** (busca exata e por significado) e exporta os trechos escolhidos com fonte e SHA-256. *v0.1.0, ainda sem instalador.*
+App desktop que pesquisa prints, PDFs e conversas **100% offline** (busca exata e por significado) e exporta os trechos escolhidos com fonte e SHA-256.
 
 `Tauri` `Rust` `React` `SQLite`<br>
 [Código](https://github.com/muryllodouglashsoares/evidence-finder) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/evidence-finder)
@@ -71,7 +71,9 @@ Mostra o que cada operação vai fazer antes de executá-la: commits só com os 
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,tailwind,vite,nodejs,postgres,firebase,rust,docker,vitest,cloudflare&theme=dark&perline=11" alt="TypeScript, React, Tailwind, Vite, Node.js, PostgreSQL, Firebase, Rust, Docker, Vitest e Cloudflare">
+  <img src="https://skillicons.dev/icons?i=ts,react,tailwind,vite,nodejs,postgres,firebase,rust,git,docker,vitest,cloudflare&theme=dark&perline=12" alt="TypeScript, React, Tailwind, Vite, Node.js, PostgreSQL, Firebase, Rust, Git, Docker, Vitest e Cloudflare">
+</p>
+
 </p>
 
 **Estudando agora:** estruturas de dados e algoritmos · arquitetura de software · robótica autônoma
