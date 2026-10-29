@@ -25,6 +25,11 @@ SaaS B2B multi-tenant: clientes, contratos, parcelas e auditoria em um só lugar
 `React` `TypeScript` `Fastify` `PostgreSQL` `Prisma` `Playwright` `Docker`<br>
 [Código](https://github.com/muryllodouglashsoares/law-contract-management) · [Demo](https://law-contract-management.pages.dev) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/lexcontract)
 
+<p>
+  <img src="https://github.com/muryllodouglashsoares/law-contract-management/raw/main/docs/screenshots/dashboard.webp" alt="Dashboard do LexContract" width="49%">
+  <img src="https://github.com/muryllodouglashsoares/law-contract-management/raw/main/docs/screenshots/contrato-pagamentos.webp" alt="Pagamentos de um contrato no LexContract" width="49%">
+</p>
+
 ### [Tekidu](https://github.com/muryllodouglashsoares/Tekidu) — gestão acadêmica
 
 Notas, frequência, boletim e comunicados para administrador, professor, estudante e responsável. A autorização fica nas Firestore Security Rules, com testes de acesso permitido e negado. PWA instalável. *Em desenvolvimento.*
@@ -32,12 +37,22 @@ Notas, frequência, boletim e comunicados para administrador, professor, estudan
 `React` `TypeScript` `Firebase` `Cloudflare` `Vitest`<br>
 [Código](https://github.com/muryllodouglashsoares/Tekidu) · [Aplicação](https://tekidu.pages.dev/) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/tekidu)
 
+<p>
+  <img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/docs/screenshots/landing-page.png" alt="Landing page do Tekidu" width="49%">
+  <img src="https://github.com/muryllodouglashsoares/Tekidu/raw/main/docs/screenshots/dashboard.png" alt="Dashboard do Tekidu" width="49%">
+</p>
+
 ### [Evidence Finder](https://github.com/muryllodouglashsoares/evidence-finder) — pesquisa local em evidências digitais
 
 App desktop que pesquisa prints, PDFs e conversas **100% offline** (busca exata e por significado) e exporta os trechos escolhidos com fonte e SHA-256. *v0.1.0, ainda sem instalador.*
 
 `Tauri` `Rust` `React` `SQLite`<br>
 [Código](https://github.com/muryllodouglashsoares/evidence-finder) · [Estudo de caso](https://portfolio-c1u.pages.dev/projects/evidence-finder)
+
+<p>
+  <img src="https://github.com/muryllodouglashsoares/evidence-finder/raw/main/docs/screenshots/Dashboard.png" alt="Tela de projetos do Evidence Finder" width="49%">
+  <img src="https://github.com/muryllodouglashsoares/evidence-finder/raw/main/docs/screenshots/Tela_Pesquisa.png" alt="Tela de pesquisa do Evidence Finder" width="49%">
+</p>
 
 ### [GitFlow Desktop](https://github.com/muryllodouglashsoares/gitflow) — interface gráfica para Git
 
